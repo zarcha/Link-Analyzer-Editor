@@ -112,10 +112,10 @@ function toRaw(object){
     const keys = Object.keys(object);
 
     keys.forEach((key) => {
-        if(locations[key].type == "int" && key != "raw"){
+        if(key != "raw" && locations[key].type == "int"){
             let tmp = object[key] / locations[key].multiplier;
             object.raw = setRawValue(key, int2hex(tmp, locations[key].little) , object.raw);
-        }else if(locations[key].type == "image"){
+        }else if(key != "raw" && locations[key].type == "image"){
             object.raw = setRawValue(key, object[key], object.raw);
         }
     });
