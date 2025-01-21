@@ -1,0 +1,8 @@
+.app-title {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}

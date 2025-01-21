@@ -14,6 +14,16 @@ export default class LinkAnalyzer {
         writer.releaseLock();
     }
 
+    async writeSync(port, data){
+        return new Promise(async (resolve, reject) => {
+            await this.write(port, data);
+
+            let res = await this.read(port, 30000);
+
+            resolve(res);
+        });
+    }
+
     async read(port, timeout){
         return new Promise(async (resolve, reject) => {
             let timeoutRead;
@@ -36,7 +46,7 @@ export default class LinkAnalyzer {
             reader.releaseLock();
             clearTimeout(timeoutRead);
 
-            resolve(res);
+            resolve(res.replace(/(\r\n|\n|\r)/gm, ""));
         })
         
     }
