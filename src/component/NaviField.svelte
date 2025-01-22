@@ -28,7 +28,7 @@
         </button>
         <ul class="dropdown-menu">
             {#each naviList as navi, index}
-            <li class="pointer"><a class="dropdown-item navi-size align-cente" on:click={() => value = index + 1}>{navi}</a></li>
+            <li class="pointer"><a class="dropdown-item navi-size align-center" on:click={() => value = index + 1}>{navi}</a></li>
             {/each}
         </ul>
     </div>

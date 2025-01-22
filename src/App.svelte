@@ -79,9 +79,37 @@
       console.error('Error:', error);
     }
   }
+
+  async function saveHexFile() {
+    navi = linkChip.toRaw(navi);
+    const hexArray = new Uint8Array(navi.raw.match(/.{1,2}/g).map(byte => parseInt(byte, 16)));
+
+    const fileHandle = await window.showSaveFilePicker({
+        suggestedName: 'backup.navi',
+        types: [
+            {
+                description: 'Navi Backup',
+                accept: { 'application/octet-stream': ['.navi'] }
+            }
+        ]
+    });
+
+    const writableStream = await fileHandle.createWritable();
+
+    await writableStream.write(hexArray);
+    await writableStream.close();
+  }
 </script>
 
-<Nav port={port} loadNavi={readNaviData} writeNavi={writeNaviData} connect={connect} openNavi={openNaviFile} loading={isLoading}/>
+<Nav port={port} 
+  hasNavi={navi ? true : false} 
+  loading={isLoading}
+  loadNavi={readNaviData} 
+  writeNavi={writeNaviData} 
+  connect={connect} 
+  openNavi={openNaviFile} 
+  saveNavi={saveHexFile}/>
+
 <div class="container mt-3">
   {#if port}
   <VersionUpdate version={firmwareVersion} />
