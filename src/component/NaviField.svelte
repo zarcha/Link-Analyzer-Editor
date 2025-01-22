@@ -21,15 +21,29 @@
     ];
 </script>
 
-<div style="padding-bottom: 10px;">
+<div class="align-center pad-bottom">
     <div class="dropdown">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
             {naviList[value - 1]}
         </button>
         <ul class="dropdown-menu">
             {#each naviList as navi, index}
-            <li><a class="dropdown-item" on:click={() => value = index + 1}>{navi}</a></li>
+            <li class="pointer"><a class="dropdown-item" on:click={() => value = index + 1}>{navi}</a></li>
             {/each}
         </ul>
     </div>
 </div>
+
+<style>
+    .align-center {
+        text-align: center;
+    }
+
+    .pad-bottom {
+        padding-bottom: 10px;
+    }
+
+    .pointer {
+        cursor: pointer;
+    }
+</style>

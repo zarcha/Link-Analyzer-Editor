@@ -6,6 +6,7 @@
   import LinkAnalyzer from "./lib/LinkAnalyzer.js";
   import linkChip from './lib/LinkChip.js'
   import { delay, int2hex } from "./lib/util.js";
+    import ImageField from './component/ImageField.svelte';
 
   const linkAnalyzer = new LinkAnalyzer();
 
@@ -87,14 +88,29 @@
   {#if navi}
   <div class="card">
     <div class="card-body">
-      <NaviField name="Navi ID" bind:value={navi.naviId}/>
-      <NumberField name="PET ID" bind:value={navi.petId} />
-      <NumberField name="Navi Level" bind:value={navi.level} />
-      <NumberField name="Navi EXP" bind:value={navi.experiance} />
-      <NumberField name="Navi HP" bind:value={navi.health} />
-      <NumberField name="Navi ATTK" bind:value={navi.attack} />
-      <NumberField name="Navi Wins" bind:value={navi.wins} />
-      <NumberField name="Navi Losses" bind:value={navi.losses} />
+      <div class="row">
+        <div class="col"><NaviField name="Navi ID" bind:value={navi.naviId}/></div>
+      </div>
+      <div class="row">
+        <div class="col"><NumberField name="PET ID" bind:value={navi.petId}/></div>
+      </div>
+      <div class="row">
+        <div class="col"><NumberField name="Navi Level" bind:value={navi.level} /></div>
+        <div class="col"><NumberField name="Navi EXP" bind:value={navi.experiance} /></div>
+      </div>
+      <div class="row">
+        <div class="col"><NumberField name="Navi HP" bind:value={navi.health} /></div>
+        <div class="col"><NumberField name="Navi ATTK" bind:value={navi.attack} /></div>
+      </div>
+      <div class="row">
+        <div class="col"><NumberField name="Navi Wins" bind:value={navi.wins} /></div>
+        <div class="col"><NumberField name="Navi Losses" bind:value={navi.losses} /></div>
+      </div>
+      <div class="row">
+        <div class="col"><ImageField name="Cross Sprite" bind:value={navi.crossSprite} /></div>
+        <div class="col"><ImageField name="Win Sprite" bind:value={navi.winSprite} /></div>
+        <div class="col"><ImageField name="Lose Sprite" bind:value={navi.loseSprite} /></div>
+      </div>
     </div>
   </div>
   {/if}
