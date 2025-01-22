@@ -1,5 +1,5 @@
 <script>
-    import { Jimp } from "jimp";
+    import { Jimp, ResizeStrategy } from "jimp";
     let {name, value = $bindable()} = $props();
     let jpegImage = $state();
     let rawImage;
@@ -40,7 +40,7 @@
         }
 
         rawImage = await image.clone();
-        jpegImage = await image.rotate(-90).flip({horizontal: true, vertical: false}).resize({w: 160, h: 160}).getBase64("image/bmp");
+        jpegImage = await image.rotate(-90).flip({horizontal: true, vertical: false}).resize({w: 160, h: 160, mode: ResizeStrategy.NEAREST_NEIGHBOR}).getBase64("image/bmp");
     }
 
     async function saveImageToFile(image, format) {
