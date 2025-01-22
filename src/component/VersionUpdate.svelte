@@ -22,7 +22,7 @@
 
 {#if currentVersion && version != currentVersion}
 <div style="padding-bottom: 10px;">
-    <div class="card">
+    <div class="card all-sides-shadow">
         <div class="card-body" style="text-align: center;">
             <p class="h3 text-danger">Your Link Analyzer is not up to date!</p>
             <p>Link Analyzer Version: {version}</p>
@@ -36,3 +36,9 @@
     </div>
 </div>
 {/if}
+
+<style>
+    .all-sides-shadow {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    }
+</style>

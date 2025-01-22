@@ -1,5 +1,5 @@
 <script>
-    let { port = false, loading, connect, loadNavi, writeNavi, openNavi, saveNavi} = $props();
+    let { port = false, hasNavi, loading, connect, loadNavi, writeNavi, openNavi, saveNavi} = $props();
 </script>
 
 <div class="bottom-shadow">
@@ -18,13 +18,13 @@
                     <button type="button" class="btn btn-warning" on:click={loadNavi}><i class="fa-solid fa-upload"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
-                    <button type="button" class="btn btn-warning" on:click={writeNavi}><i class="fa-solid fa-download"></i></button>
+                    <button type="button" class="btn btn-warning {hasNavi ? "" : "disabled"}" on:click={writeNavi}><i class="fa-solid fa-download"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
                     <button type="button" class="btn btn-warning" on:click={openNavi}><i class="fa-solid fa-folder-open"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
-                    <button type="button" class="btn btn-warning" on:click={saveNavi}><i class="fa-solid fa-floppy-disk"></i></button>
+                    <button type="button" class="btn btn-warning {hasNavi ? "" : "disabled"}" on:click={saveNavi}><i class="fa-solid fa-floppy-disk"></i></button>
                 </li>
                 {/if}
             </ul>
@@ -40,6 +40,15 @@
 </div>
 
 <style>
+    .app-title {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .bottom-shadow {
         box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.35);
     }
