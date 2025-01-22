@@ -6,7 +6,8 @@
   import LinkAnalyzer from "./lib/LinkAnalyzer.js";
   import linkChip from './lib/LinkChip.js'
   import { delay, int2hex } from "./lib/util.js";
-    import ImageField from './component/ImageField.svelte';
+  import ImageField from './component/ImageField.svelte';
+    import Footer from './component/Footer.svelte';
 
   const linkAnalyzer = new LinkAnalyzer();
 
@@ -24,7 +25,7 @@
       firmwareVersion = firmwareVersion.trim();
       port = tmpPort;
     }catch(err){
-      console.error("Port busy or not selected");
+      alert("Port busy or not selected");
     }
     
     isLoading = false;
@@ -86,7 +87,7 @@
   <VersionUpdate version={firmwareVersion} />
   {/if}
   {#if navi}
-  <div class="card">
+  <div class="card all-sides-shadow">
     <div class="card-body">
       <div class="row">
         <div class="col"><NaviField name="Navi ID" bind:value={navi.naviId}/></div>
@@ -115,7 +116,10 @@
   </div>
   {/if}
 </div>
+<Footer />
 
 <style>
-
+  .all-sides-shadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  }
 </style>

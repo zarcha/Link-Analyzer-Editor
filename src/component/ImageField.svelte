@@ -40,12 +40,11 @@
         }
 
         rawImage = await image.clone();
-        jpegImage = await image.rotate(-90).flip({horizontal: true, vertical: false}).resize({w: 160, h: 160}).getBase64("image/jpeg");
+        jpegImage = await image.rotate(-90).flip({horizontal: true, vertical: false}).resize({w: 160, h: 160}).getBase64("image/bmp");
     }
 
     async function saveImageToFile(image, format) {
         try {
-            // Show the save file picker
             const fileHandle = await window.showSaveFilePicker({
                 suggestedName: `${name.split(" ").join("-")}.${format}`,
                 types: [
@@ -56,24 +55,17 @@
                 ],
             });
 
-            // Create a writable stream
             const writable = await fileHandle.createWritable();
 
             await image.rotate(-90).flip({horizontal: true, vertical: false});
 
-            // Get the image buffer in the specified format
             if(format != "bmp"){
                 await image.resize({w: 160, h: 160});
             }
             const imageBuffer = await image.getBuffer(`image/${format}`);
 
-            // Write the image buffer to the file
             await writable.write(imageBuffer);
-
-            // Close the writable stream
             await writable.close();
-
-            console.log(`Image saved successfully as ${format.toUpperCase()}!`);
         } catch (err) {
             console.error('Error saving the image:', err);
         }
@@ -90,15 +82,12 @@
     <div class="card-header align-center">{name}</div>
     <div class="card-body align-center">
         {#if jpegImage}
-        <div class="pad-bottom">
+        <div class="margin-bottom">
             <img src="{jpegImage}" />
         </div>
-        <div class="pad-bottom">
-            <button type="button" class="btn btn-warning" on:click={() => saveImageToFile(rawImage.clone(), "jpeg")}>Save JPEG</button>
-            <button type="button" class="btn btn-warning" on:click={() => saveImageToFile(rawImage.clone(), "bmp")}>Save BMP</button>
-        </div>
         <div>
-            <button type="button" class="btn btn-warning">Upload</button>
+            <button type="button" class="btn btn-warning margin-bottom disabled">Upload</button>
+            <button type="button" class="btn btn-warning margin-bottom" on:click={() => saveImageToFile(rawImage.clone(), "bmp")}>Save BMP</button>
         </div>
         {/if}
     </div>
@@ -109,7 +98,7 @@
         text-align: center;
     }
 
-    .pad-bottom {
+    .margin-bottom {
         padding-bottom: 10px;
     }
 </style>
