@@ -1,7 +1,5 @@
 import { hex2int, int2hex } from './util.js'
 
-let navi;
-
 let locations = {
     naviId: {
         start: 0,
