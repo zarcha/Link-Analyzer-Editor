@@ -2,6 +2,14 @@ function hex2bin(hex){
     return ("00000000" + (parseInt(hex, 16)).toString(2)).substr(-8)
 }
 
+function bin2hex(bin){
+    return ("00" + (parseInt(bin, 2)).toString(16)).substr(-2).toUpperCase();
+}
+
+function flipEndainess(bin){
+    return bin.split("").reverse().join("");
+}
+
 
 function hex2int(hex, isLittleEndian = false) {
     if (typeof hex !== "string" || !/^[0-9A-Fa-f]+$/.test(hex)) {
@@ -51,4 +59,4 @@ function int2hex(value, isLittleEndian = false){
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-export {hex2int, int2hex, hex2bin, delay}
+export {hex2int, int2hex, hex2bin, bin2hex, flipEndainess, delay}

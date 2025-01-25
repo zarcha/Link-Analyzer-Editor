@@ -64,24 +64,24 @@ let locations = {
         little: false,
         multiplier: 1
     },
-    unkownSprite: {
+    unknownSprite: {
         start: 228,
-        length: 122,
+        length: 120,
         type: "image"
     },
     crossSprite: {
         start: 356,
-        length: 122,
+        length: 120,
         type: "image"
     },
     loseSprite: {
         start: 484,
-        length: 122,
+        length: 120,
         type: "image"
     },
     winSprite: {
         start: 612,
-        length: 122,
+        length: 120,
         type: "image"
     }
 }
@@ -97,6 +97,7 @@ function toObject(raw){
         attack: getIntValue("attack", raw),
         wins: getIntValue("wins", raw),
         losses: getIntValue("losses", raw),
+        unknownSprite: getRawValue("unknownSprite", raw),
         crossSprite: getRawValue("crossSprite", raw),
         loseSprite: getRawValue("loseSprite", raw),
         winSprite: getRawValue("winSprite", raw),
