@@ -26,12 +26,12 @@
 
 <div class="d-flex flex-column flex-shrink-0">
     <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-        <img src="icon.png" style="width: 30px; margin-right: 5px;"/>
+        <img class="logo" src="icon.png"/>
         <span>Link Analyzer</span>
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
-        <a class="nav-link text-black {port ? "bg-success" : "bg-danger"}" style="text-align: center; cursor: pointer;" on:click={connect}>
+        <a class="nav-link text-black link-cursor {port ? "bg-success" : "bg-danger"}" style="cursor: pointer;" on:click={connect}>
             {#if !port && !connecting}
             Connect
             {:else if connecting}
@@ -74,6 +74,11 @@
 
     .kofi {
         width: 30px;
+    }
+
+    .logo {
+        width: 30px; 
+        margin-right: 5px;
     }
 
     .footer {

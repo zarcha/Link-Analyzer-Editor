@@ -1,12 +1,12 @@
 <script>
-    import NaviEditorTopBar from '../component/NaviEditorTopBar.svelte'
-    import VersionUpdate from '../component/VersionUpdate.svelte';
-    import NumberField from '../component/NumberField.svelte';
-    import NaviField from '../component/NaviField.svelte';
+    import NaviEditorTopBar from '../component/editor/NaviEditorTopBar.svelte'
+    import VersionUpdate from '../component/editor/VersionUpdate.svelte';
+    import NumberField from '../component/editor/NumberField.svelte';
+    import NaviField from '../component/editor/NaviField.svelte';
+    import ImageField from '../component/editor/ImageField.svelte';
     import LinkAnalyzer from "../lib/LinkAnalyzer.js";
     import linkChip from '../lib/LinkChip.js'
-    import { delay, int2hex } from "../lib/util.js";
-    import ImageField from '../component/ImageField.svelte';
+    import { int2hex } from "../lib/util.js";
   
     const linkAnalyzer = new LinkAnalyzer();
     let {port = $bindable()} = $props();
