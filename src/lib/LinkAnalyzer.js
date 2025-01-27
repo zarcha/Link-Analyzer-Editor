@@ -27,11 +27,11 @@ export default class LinkAnalyzer {
     async read(port, timeout){
         return new Promise(async (resolve, reject) => {
             let timeoutRead;
-            if(timeout){
-                timeoutRead = setTimeout((reject) => {
-                    reject("Timed out waiting");
-                }, timeout, reject);
-            }
+            // if(timeout){
+            //     timeoutRead = setTimeout((reject) => {
+            //         reject("Timed out waiting");
+            //     }, timeout, reject);
+            // }
             const reader = port.readable.getReader();
             let res = "";
 
@@ -44,7 +44,7 @@ export default class LinkAnalyzer {
             }
 
             reader.releaseLock();
-            clearTimeout(timeoutRead);
+            // clearTimeout(timeoutRead);
 
             resolve(res.replace(/(\r\n|\n|\r)/gm, ""));
         })

@@ -2,18 +2,11 @@
     let { port = false, hasNavi, loading, connect, loadNavi, writeNavi, openNavi, saveNavi} = $props();
 </script>
 
-<div class="bottom-shadow">
-    <div class="app-title">
-        <span class="h3">Link Analyzer Editor</span>
-    </div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark custom-nav">
         <div class="container-fluid">
             <ul class="navbar-nav mr-auto">
-                {#if !port}
-                <li class="nav-item">
-                    <button type="button" class="btn btn-warning" on:click={connect}>Connect</button>
-                </li>
-                {:else}
+                {#if port}
                 <li class="nav-item">
                     <button type="button" class="btn btn-warning" on:click={loadNavi}><i class="fa-solid fa-upload"></i></button>
                 </li>
@@ -40,16 +33,9 @@
 </div>
 
 <style>
-    .app-title {
-        position: absolute;
-        z-index: 1;
-        color: white;
-        top: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .bottom-shadow {
-        box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.35);
+    .custom-nav {
+        height: 54px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(222, 226, 230, 0.15);
     }
 </style>
