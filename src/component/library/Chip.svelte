@@ -5,29 +5,39 @@
     let { chipInfo = $bindable() } = $props();
 
     async function getImage() {
-        let res = await axios.get(`chips-hi-rez/${chipInfo.id}.png`, {
-            responseType: 'arraybuffer',
-        });
+        try{
+            let res = await axios.get(`chips-hi-rez/${chipInfo.id}.png`, {
+                responseType: 'arraybuffer',
+            });
 
-        if(res.headers["content-type"] == "image/png"){
-            const base64 = Buffer.from(res.data, 'binary').toString('base64');
-            const base64Image = `data:image/png;base64,${base64}`;
-            chipInfo.chipArt = base64Image;
-        }else{
+            if(res.headers["content-type"] == "image/png"){
+                const base64 = Buffer.from(res.data, 'binary').toString('base64');
+                const base64Image = `data:image/png;base64,${base64}`;
+                chipInfo.chipArt = base64Image;
+            }else{
+                chipInfo.chipArt = "no-data.png";
+            }
+        }catch(error){
             chipInfo.chipArt = "no-data.png";
         }
+        
 
-        res = await axios.get(`chips-attack-pattern/${chipInfo.id}.png`, {
-            responseType: 'arraybuffer',
-        });
-
-        if(res.headers["content-type"] == "image/png"){
-            const base64 = Buffer.from(res.data, 'binary').toString('base64');
-            const base64Image = `data:image/png;base64,${base64}`;
-            chipInfo.attackArt = base64Image;
-        }else{
-            chipInfo.attackArt = "no-data.png";
+        try{
+            let res = await axios.get(`chips-attack-pattern/${chipInfo.id}.png`, {
+                responseType: 'arraybuffer',
+            });
+            
+            if(res.headers["content-type"] == "image/png"){
+                const base64 = Buffer.from(res.data, 'binary').toString('base64');
+                const base64Image = `data:image/png;base64,${base64}`;
+                chipInfo.attackArt = base64Image;
+            }else{
+                chipInfo.attackArt = "no-data.png";
+            }
+        }catch(error){
+            chipInfo.attackArt = "no-data.png"
         }
+        
     }
 
     $effect(() => {
@@ -47,13 +57,13 @@
         </div>
     </div>
     <div class="card-body">
-        <div class="chip-image-container card">
+        <div class="image-container card">
             <div class="card-header">Chip Art</div>
             <div class="card-body">
                 <img src={chipInfo.chipArt} />
             </div>
         </div>
-        <div class="attack-pattern-container card">
+        <div class="image-container card">
             <div class="card-header">Attack Pattern</div>
             <div class="card-body">
                  <img src={chipInfo.attackArt} />
@@ -68,12 +78,14 @@
                     <span class="input-group-text">TYPE</span>
                     <span class="form-control">{chipInfo.pet.type}</span>
                 </div>
+                <br>
                 {/if}
                 {#if chipInfo.pet.damage > 0}
                 <div class="input-group">
                     <span class="input-group-text">DAMAGE</span>
                     <span class="form-control">{chipInfo.pet.damage}</span>
                 </div>
+                <br>
                 {/if}
                 {#if chipInfo.pet.affect}
                 <div class="card">
@@ -94,12 +106,14 @@
                     <span class="input-group-text">TYPE</span>
                     <span class="form-control">{chipInfo.bs.type}</span>
                 </div>
+                <br>
                 {/if}
                 {#if chipInfo.bcs.damage > 0}
                 <div class="input-group">
                     <span class="input-group-text">DAMAGE</span>
                     <span class="form-control">{chipInfo.bcs.damage}</span>
                 </div>
+                <br>
                 {/if}
                 {#if chipInfo.bcs.affect}
                     <div class="card">
@@ -120,12 +134,14 @@
                     <span class="input-group-text">TYPE</span>
                     <span class="form-control">{chipInfo.gba.type}</span>
                 </div>
+                <br>
                 {/if}
                 {#if chipInfo.gba.damage > 0}
                 <div class="input-group">
                     <span class="input-group-text">DAMAGE</span>
                     <span class="form-control">{chipInfo.gba.damage}</span>
                 </div>
+                <br>
                 {/if}
                 {#if chipInfo.gba.affect}
                     <div class="card">
@@ -178,28 +194,12 @@
         text-align: center;
     }
 
-    .chip-image-container {
+    .image-container {
         display: inline-block;
         margin-bottom: 10px;
         margin-right: 10px;
+        vertical-align: middle;
         
-        .card-header {
-            text-align: center;
-            font-weight: bold;
-        }
-
-        img {
-            width: 150px;
-            border-radius: 15px;
-            border: 2px solid rgba(222, 226, 230, 1);
-        }
-    }
-
-    .attack-pattern-container {
-        display: inline-block;
-        margin-bottom: 10px;
-        margin-right: 10px;
-
         .card-header {
             text-align: center;
             font-weight: bold;
