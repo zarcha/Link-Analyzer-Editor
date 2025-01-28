@@ -29,8 +29,8 @@
             <p>Current Version: {currentVersion}</p>
             <p class="text-warning">Your Link Analyzer may not work with this app without updating!</p>
             <div>
-                <button type="button" class="btn btn-warning" on:click={openFirmware}>Download Firmware</button>
-                <button type="button" class="btn btn-warning" on:click={openGuide}>Update Guide</button>
+                <button type="button" class="btn btn-warning" onclick={openFirmware}>Download Firmware</button>
+                <button type="button" class="btn btn-warning" onclick={openGuide}>Update Guide</button>
             </div>
         </div>
     </div>

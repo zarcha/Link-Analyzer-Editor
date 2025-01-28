@@ -1,6 +1,5 @@
 <script>
     import { Jimp, ResizeStrategy } from "jimp";
-    import { bin2hex, flipEndainess } from "../lib/util";
     let {name, value = $bindable()} = $props();
     let jpegImage = $state();
     let rawImage;
@@ -25,14 +24,14 @@
                 const bitPosition = bitIndex % 8; 
                 let bit = 0;
 
-                if(y < 30){
-                    const hexByte = hexString.substr(byteIndex * 2, 2);
-                    const byteValue = parseInt(hexByte, 16);
-                    const reversedByte = reverseBits(byteValue);
+                if(y < 30 && x < 30){
+                const hexByte = hexString.substr(byteIndex * 2, 2);
+                const byteValue = parseInt(hexByte, 16);
+                const reversedByte = reverseBits(byteValue);
 
-                    bit = (reversedByte >> (7 - bitPosition)) & 1;
+                bit = (reversedByte >> (7 - bitPosition)) & 1;
                 }else{
-                    bit = 0
+                    bit = 1
                 }
                 
                 const color = bit === 0 ? 0xFFFFFFFF : 0x000000FF; 
@@ -72,46 +71,11 @@
         }
     }
 
-    async function uploadSprite() {
-        const [fileHandle] = await window.showOpenFilePicker({
-        types: [
-            {
-            description: 'Bitmap Files',
-            accept: { 'image/bmp': ['.bmp'] },
-            },
-        ],
-        multiple: false,
-        });
-
-        const file = await fileHandle.getFile();
-        const arrayBuffer = await file.arrayBuffer();
-        let image = await Jimp.fromBuffer(arrayBuffer);
-
-        if(image.bitmap.width != 32 || image.bitmap.height != 32){
-            alert("Image is not 32x32");
-            return;
-        }
-
-        await image.greyscale().flip({horizontal: true, vertical: false}).rotate(90);
-        const bmpData = image.bitmap.data.toString("HEX");
-        let currentBin = "";
-        let hex = "";
-
-        for(let i = 0; i < bmpData.length; i+=8){
-            currentBin += bmpData.substring(i, i + 8) == "fefefeff" ? 0 : 1;
-
-            if(currentBin.length == 8){
-                hex += bin2hex(flipEndainess(currentBin));
-                currentBin = "";
-            }
-        }
-        value = hex.substring(0, 240);
-        value = hex;
+    function flipEndainess(str){
+        return str.split("").reverse().join("")
     }
 
-    $effect(() => {
-        createImageFromHex(value);
-    });
+    value && createImageFromHex(value);
 </script>
 
 <div style="card pad-bottom">
@@ -122,8 +86,8 @@
             <img src="{jpegImage}" />
         </div>
         <div>
-            <button type="button" class="btn btn-warning margin-bottom" on:click={uploadSprite}>Upload</button>
-            <button type="button" class="btn btn-warning margin-bottom" on:click={() => saveImageToFile(rawImage.clone(), "bmp")}>Save BMP</button>
+            <button type="button" class="btn btn-warning margin-bottom disabled">Upload</button>
+            <button type="button" class="btn btn-warning margin-bottom" onclick={() => saveImageToFile(rawImage.clone(), "bmp")}>Save BMP</button>
         </div>
         {/if}
     </div>
