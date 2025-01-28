@@ -13,9 +13,9 @@
   </div>
   <div class="content">
     {#if page == "library"}
-    <ChipLibrary />
+    <ChipLibrary port={port} />
     {:else}
-    <NaviEditor bind:port={port}/>
+    <NaviEditor port={port}/>
     {/if}
   </div>
 </div>

@@ -31,7 +31,7 @@
     </a>
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
-        <a class="nav-link text-black link-cursor {port ? "bg-success" : "bg-danger"}" style="cursor: pointer;" on:click={connect}>
+        <a class="nav-link text-black link-cursor {port ? "bg-success" : "bg-danger"}" style="text-align: center;" onclick={connect}>
             {#if !port && !connecting}
             Connect
             {:else if connecting}
@@ -44,13 +44,13 @@
     <hr>
     <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-            <a class="nav-link link-cursor {page == "library" ? "text-warning" : "bg-warning text-black"}" on:click={() => page = ""}>
+            <a class="nav-link link-cursor {page == "library" ? "text-warning" : "bg-warning text-black"}" onclick={() => page = ""}>
                 <span class="fa-solid fa-pen-to-square"></span>
                 Navi Editor
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link link-cursor {page == "library" ? "bg-warning text-black " : "text-warning"}" on:click={() => page = "library"}>
+            <a class="nav-link link-cursor {page == "library" ? "bg-warning text-black " : "text-warning"}" onclick={() => page = "library"}>
                 <span class="fa-solid fa-book"></span>
                 Chip Catalog
             </a>
