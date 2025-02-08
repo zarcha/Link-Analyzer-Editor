@@ -1,25 +1,25 @@
 <script>
+    import Search from '../component/library/Search.svelte';
     import Chip from '../component/library/Chip.svelte';
     import axios from 'axios';
-    import Search from '../component/library/Search.svelte';
+    import { onMount } from 'svelte';
+    import { publish } from '../lib/Store.js'
 
     let { port } = $props();
     let chips = $state([]);
     let filteredChips = $state([]);
     let maxChips = $state(10);
 
-    async function load() {
-        let res = await axios.get('./link-chips.json');
-        chips = res.data;
-        filterChips();
-    }
-
-    window.onscroll = function(ev) {
-        if ((window.innerHeight + Math.round(window.scrollY)) >= document.body.offsetHeight) {
-            maxChips += 10;
-            if(maxChips > chips.length) maxChips = chips.length;
+    async function loadChips() {
+        try{
+            let res = await axios.get('./link-chips.json');
+            chips = res.data;
+            filterChips();
+        }catch(error){
+            console.error(error);
+            publish('toasts', {type: 'error', content: 'Failed to load chip list.'});
         }
-    };
+    }
 
     function filterChips(searchValue){
         filteredChips = chips;
@@ -52,23 +52,30 @@
         }
     }
 
-    load();
+    onMount(() => {
+        window.onscroll = function() {
+            if ((window.innerHeight + Math.round(window.scrollY)) >= document.body.offsetHeight) {
+                if((maxChips + 10) <= filteredChips.length) {
+                    maxChips += 10;
+                }
+            }
+        };
 
+        loadChips();
+    });
 </script>
 
-<div class="container">
+<div class="chip-list-container">
     {#if chips.length > 0}
     <Search port={port} filter={filterChips} />
     {#each {length: maxChips}, i}
-        <Chip chipInfo={filteredChips[i]} />
+        <Chip bind:chipInfo={filteredChips[i]} />
     {/each}
     {/if}
 </div>
 
 <style>
-
-    .container {
+    .chip-list-container {
         padding-top: 10px;
     }
-    
 </style>

@@ -1,23 +1,32 @@
 <script>
-    import axios from "axios";
+    import axios from 'axios';
+    import { publish } from '../lib/Store.js'
+    import { onMount } from 'svelte';
 
-    let {version} = $props();
+    const {version} = $props();
     let currentVersion = $state();
 
     async function getCurrentVersion(){
-        let res = await axios.get("https://api.github.com/repos/zarcha/Link-Analyzer-Firmware/tags");
-        currentVersion = res.data[0].name;
+        try{    
+            const res = await axios.get('https://api.github.com/repos/zarcha/Link-Analyzer-Firmware/tags');
+            currentVersion = res.data[0].name;
+        }catch(error){
+            console.error(error);
+            publish('toasts', {type: 'error', content: 'Unable to get current version from GitHub.'});
+        }
     }
 
     function openFirmware(){
-        window.open("https://github.com/zarcha/Link-Analyzer-Firmware/releases", '_blank').focus();
+        window.open('https://github.com/zarcha/Link-Analyzer-Firmware/releases', '_blank').focus();
     }
 
     function openGuide(){
-        window.open("https://github.com/zarcha/Link-Analyzer-Firmware#flashingupdating", "_blank").focus();
+        window.open('https://github.com/zarcha/Link-Analyzer-Firmware#flashingupdating', '_blank').focus();
     }
 
-    getCurrentVersion();
+    onMount(() => {
+        getCurrentVersion();
+    });
 </script>
 
 {#if currentVersion && version != currentVersion}

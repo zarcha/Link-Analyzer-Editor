@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Link-Analyzer-Editor/",
-  plugins: [svelte()],
-})
+    base: process.env.BUILD_ENV ? '/' : '/Link-Analyzer-Editor/',
+    plugins: [svelte()],
+});
