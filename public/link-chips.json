@@ -3,2505 +3,1041 @@
         "name": "Cannon",
         "class": "Standard",
         "id": 1,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hi-Cannon",
         "class": "Standard",
         "id": 2,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Mega Cannon",
         "class": "Standard",
         "id": 3,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Air Shot",
         "class": "Standard",
         "id": 4,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 50, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Vulcan 1",
         "class": "Standard",
         "id": 5,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Vulcan 2",
         "class": "Standard",
         "id": 6,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Vulcan 3",
         "class": "Standard",
         "id": 7,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Super Vulcan",
         "class": "Standard",
         "id": 8,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Spreader 1",
         "class": "Standard",
         "id": 9,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Spreader 2",
         "class": "Standard",
         "id": 10,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Spreader 3",
         "class": "Standard",
         "id": 11,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Tank Cannon 1",
         "class": "Standard",
         "id": 12,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Tank Cannon 2",
         "class": "Standard",
         "id": 13,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Tank Cannon 3",
         "class": "Standard",
         "id": 14,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Gun del Sol 1",
         "class": "Standard",
         "id": 15,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Gun del Sol 2",
         "class": "Standard",
         "id": 16,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Gun del Sol 3",
         "class": "Standard",
         "id": 17,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Gun del Sol EX",
         "class": "Standard",
         "id": 18,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Yo-Yo",
         "class": "Standard",
         "id": 19,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hell's Burner 1",
         "class": "Standard",
         "id": 20,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hell's Burner 2",
         "class": "Standard",
         "id": 21,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hell's Burner 3",
         "class": "Standard",
         "id": 22,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wide Shot",
         "class": "Standard",
         "id": 23,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Train Arrow 1",
         "class": "Standard",
         "id": 24,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Train Arrow 2",
         "class": "Standard",
         "id": 25,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
     {
         "name": "Train Arrow 3",
         "class": "Standard",
         "id": 26,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bubble Star 1",
         "class": "Standard",
         "id": 27,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bubble Star 2",
         "class": "Standard",
         "id": 28,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bubble Star 3",
         "class": "Standard",
         "id": 29,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
     {
         "name": "Thunder Ball",
         "class": "Standard",
         "id": 30,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Doll Thunder 1",
         "class": "Standard",
         "id": 31,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Doll Thunder 2",
         "class": "Standard",
         "id": 32,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Doll Thunder 3",
         "class": "Standard",
         "id": 33,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Elec Pulse 1",
         "class": "Standard",
         "id": 34,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Elec Pulse 2",
         "class": "Standard",
         "id": 35,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Elec Pulse 3",
         "class": "Standard",
         "id": 36,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Risky Honey 1",
         "class": "Standard",
         "id": 37,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Risky Honey 2",
         "class": "Standard",
         "id": 38,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Risky Honey 3",
         "class": "Standard",
         "id": 39,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Rolling Log 1",
         "class": "Standard",
         "id": 40,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Rolling Log 2",
         "class": "Standard",
         "id": 41,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Rolling Log 3",
         "class": "Standard",
         "id": 42,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Machine Gun 1",
         "class": "Standard",
         "id": 43,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Machine Gun 2",
         "class": "Standard",
         "id": 44,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Machine Gun 3",
         "class": "Standard",
         "id": 45,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Elec Dragon",
         "class": "Standard",
         "id": 47,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aqua Dragon",
         "class": "Standard",
         "id": 48,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wood Dragon",
         "class": "Standard",
         "id": 49,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Air Hockey",
         "class": "Standard",
         "id": 50,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Drill Arm",
         "class": "Standard",
         "id": 51,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Tornado",
         "class": "Standard",
         "id": 52,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Noise Storm",
         "library id": "Static",
         "class": "Standard",
         "game id": "54",
         "id": 53,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Mini Bomb",
         "class": "Standard",
         "id": 54,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Energy Bomb",
         "class": "Standard",
         "id": 55,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Mega Energy Bomb",
         "class": "Standard",
         "id": 56,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Flash Bomb 1",
         "class": "Standard",
         "id": 57,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Flash Bomb 2",
         "class": "Standard",
         "id": 58,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Flash Bomb 3",
         "class": "Standard",
         "id": 59,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Black Bomb",
         "class": "Standard",
         "id": 60,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aqua Needle 1",
         "class": "Standard",
         "id": 61,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aqua Needle 2",
         "class": "Standard",
         "id": 62,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aqua Needle 3",
         "class": "Standard",
         "id": 63,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Corn Shot 1",
         "class": "Standard",
         "id": 64,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Corn Shot 2",
         "class": "Standard",
         "id": 65,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Corn Shot 3",
         "class": "Standard",
         "id": 66,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Grass Seed",
         "class": "Standard",
         "id": 68,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Ice Seed",
         "class": "Standard",
         "id": 69,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Poison Seed",
         "class": "Standard",
         "id": 70,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sword",
         "class": "Standard",
         "id": 71,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wide Sword",
         "class": "Standard",
         "id": 72,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Long Sword",
         "class": "Standard",
         "id": 73,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wide Blade",
         "class": "Standard",
         "id": 74,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Long Blade",
         "class": "Standard",
         "id": 75,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aqua Sword",
         "class": "Standard",
         "id": 77,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Elec Sword",
         "class": "Standard",
         "id": 78,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bamboo Sword",
         "class": "Standard",
         "id": 79,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wind Rack",
         "class": "Standard",
         "id": 80,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Step Sword",
         "class": "Standard",
         "id": 81,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Variable Sword",
         "class": "Standard",
         "id": 82,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Neo Variable Sword",
         "class": "Standard",
         "id": 83,
-        "pet": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 170,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 120, "affect": "" },
+        "bcs": { "type": "", "damage": 170, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Moon Blade / Engetsu Kunai",
         "class": "Standard",
         "id": 84,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Muramasa Blade",
         "class": "Standard",
         "id": 85,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Machine Sword",
         "class": "Standard",
         "id": 86,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Element Sword",
         "class": "Standard",
         "id": 87,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 180, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Assassin Sword",
         "class": "Standard",
         "id": 88,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 200,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 200, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Crack Shot",
         "class": "Standard",
         "id": 89,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Double Shot",
         "class": "Standard",
         "id": 90,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Triple Shot",
         "class": "Standard",
         "id": 91,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wave Arm 1",
         "class": "Standard",
         "id": 92,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wave Arm 2",
         "class": "Standard",
         "id": 93,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wave Arm 3",
         "class": "Standard",
         "id": 94,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aura Head 1",
         "library id": "AuraHead1",
         "class": "Standard",
         "game id": "48",
         "id": 95,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aura Head 2",
         "library id": "AuraHead2",
         "class": "Standard",
         "game id": "49",
         "id": 96,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Aura Head 3",
         "library id": "AruaHead3",
         "class": "Standard",
         "game id": "50",
         "id": 97,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Little Boiler 1",
         "library id": "LittleBoiler1",
         "class": "Standard",
         "game id": "139",
         "id": 98,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Little Boiler 2",
         "library id": "LittleBoiler2",
         "class": "Standard",
         "game id": "140",
         "id": 99,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Little Boiler 3",
         "library id": "LittleBoiler3",
         "class": "Standard",
         "game id": "141",
         "id": 100,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sand Worm 1",
         "library id": "SandWorm1",
         "class": "Standard",
         "game id": "97",
         "id": 101,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sand Worm 2",
-        "library id": "SandWorm2", 
+        "library id": "SandWorm2",
         "class": "Standard",
         "game id": "98",
         "id": 102,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sand Worm 3",
         "library id": "SandWorm3",
         "class": "Standard",
         "game id": "99",
         "id": 103,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Air Raid 1",
         "library id": "AirRaid1",
         "class": "Standard",
         "game id": "142",
         "id": 104,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Air Raid 2",
         "library id": "AirRaid2",
         "class": "Standard",
         "game id": "143",
         "id": 105,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Air Raid 3",
         "library id": "AirRaid3",
         "class": "Standard",
         "game id": "144",
         "id": 106,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Fire Hit 1",
         "library id": "FireHit1",
         "class": "Standard",
         "game id": "105",
         "id": 107,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Fire Hit 2",
         "library id": "FireHit2",
         "class": "Standard",
         "game id": "106",
         "id": 108,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Fire Hit 3",
         "library id": "FireHit3",
         "class": "Standard",
         "game id": "107",
         "id": 109,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Burn Square 1",
         "library id": "BurnSquare1",
         "class": "Standard",
         "game id": "108",
         "id": 110,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Burn Square 2",
         "library id": "BurnSquare2",
         "class": "Standard",
         "game id": "109",
         "id": 111,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Burn Square 3",
         "library id": "BurnSquare3",
         "class": "Standard",
         "game id": "110",
         "id": 112,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sensor 1",
         "library id": "Sensor1",
         "class": "Standard",
         "game id": "116",
         "id": 113,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sensor 2",
         "library id": "Sensor2",
         "class": "Standard",
         "game id": "117",
         "id": 114,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sensor 3",
         "library id": "Sensor3",
         "class": "Standard",
         "game id": "118",
         "id": 115,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Boomerang",
         "library id": "Boomer",
         "class": "Standard",
         "game id": "119",
         "id": 116,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hi-Boomerang",
         "library id": "HiBoomer",
         "class": "Standard",
         "game id": "120",
         "id": 117,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Mega Boomerang",
         "library id": "MegaBoomer",
         "class": "Standard",
         "game id": "121",
         "id": 118,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bamboo Lance",
         "library id": "Lance",
         "class": "Standard",
         "game id": "122",
         "id": 119,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Golem Hit 1",
         "library id": "GolemHit1",
         "class": "Standard",
         "game id": "127",
         "id": 120,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Golem Hit 2",
         "library id": "GolemHit2",
         "class": "Standard",
         "game id": "128",
         "id": 121,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Golem Hit 3",
         "library id": "GolemHit3",
         "class": "Standard",
         "game id": "129",
         "id": 122,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Iron Shell 1",
         "library id": "IronShell1",
         "class": "Standard",
         "game id": "45",
         "id": 123,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Iron Shell 2",
         "library id": "IronShell2",
         "class": "Standard",
         "game id": "46",
         "id": 124,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Iron Shell 3",
         "library id": "IronShell3",
         "class": "Standard",
         "game id": "47",
         "id": 125,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
     {
         "name": "Air Spin 1",
@@ -2509,43 +1045,19 @@
         "class": "Standard",
         "game id": "131",
         "id": 126,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Air Spin 2",
         "library id": "AirSpin2",
         "class": "Standard",
         "game id": "132",
         "id": 127,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
     {
         "name": "Air Spin 3",
@@ -2553,713 +1065,305 @@
         "class": "Standard",
         "game id": "133",
         "id": 128,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Wind",
         "library id": "Wind",
         "class": "Standard",
         "game id": "134",
         "id": 129,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "Enemy Slow Down"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "Enemy Slow Down" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Fan",
         "library name": "Fan",
         "class": "Standard",
         "game id": "135",
         "id": 130,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "Enemy Slow Down"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "Enemy Slow Down" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Reflector 1",
         "library id": "Reflector1",
         "class": "Standard",
         "game id": "91",
         "id": 131,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Reflector 2",
         "library id": "Reflector2",
         "class": "Standard",
         "game id": "92",
         "id": 132,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Reflector 3",
         "library id": "Reflector3",
         "class": "Standard",
         "game id": "92",
         "id": 133,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Snake",
         "library id": "Snake",
         "class": "Standard",
         "game id": "103",
         "id": 134,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Summon Black 1",
         "library id": "SummonBlack1",
         "class": "Standard",
         "game id": "100",
         "id": 135,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Summon Black 2",
         "library id": "SummonBlack2",
         "class": "Standard",
         "game id": "101",
         "id": 136,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Summon Black 3",
         "library id": "SummonBlack3",
         "class": "Standard",
         "game id": "102",
         "id": 137,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Number Ball",
         "library id": "NumberBall",
         "class": "Standard",
         "game id": "104",
         "id": 138,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Meteors",
         "library id": "Meteors",
         "class": "Standard",
         "game id": "111",
         "id": 139,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Justice One",
         "library id": "JusticeOne",
         "class": "Standard",
         "game id": "130",
         "id": 140,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Magnum",
         "library id": "Magnum",
         "class": "Standard",
         "game id": "136",
         "id": 141,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Circle Gun",
         "library id": "CircleGun",
         "class": "Standard",
         "game id": "137",
         "id": 142,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Rock Cube",
         "library id": "RockCube",
         "class": "Standard",
         "game id": "138",
         "id": 143,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Count Bomb 1",
         "class": "Standard",
         "id": 144,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Mine",
         "class": "Standard",
         "id": 145,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Fanfare",
         "class": "Standard",
         "id": 146,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Discord",
         "class": "Standard",
         "id": 147,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Timpani",
         "class": "Standard",
         "id": 148,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Silence",
         "class": "Standard",
         "id": 149,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "VDoll",
         "class": "Standard",
         "id": 150,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Guardian",
         "class": "Standard",
         "id": 151,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Anubis",
         "class": "Standard",
         "id": 152,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Otenko",
         "class": "Standard",
         "id": 153,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 10",
         "class": "Standard",
         "id": 154,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "+10 HP"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 50,
-            "affect": "+10 HP"
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "+10 HP" },
+        "bcs": { "type": "", "damage": 50, "affect": "+10 HP" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 30",
         "class": "Standard",
         "id": 155,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "+30 HP"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 50,
-            "affect": "+30 HP"
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "+30 HP" },
+        "bcs": { "type": "", "damage": 50, "affect": "+30 HP" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 50",
         "class": "Standard",
         "id": 156,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "+50 HP"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 50,
-            "affect": "+50 HP"
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "+50 HP" },
+        "bcs": { "type": "", "damage": 50, "affect": "+50 HP" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 80",
         "class": "Standard",
         "id": 157,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 120",
         "class": "Standard",
         "id": 158,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "+120 HP"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": "+120 HP"
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "+120 HP" },
+        "bcs": { "type": "", "damage": 60, "affect": "+120 HP" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 150",
         "class": "Standard",
         "id": 159,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "+150 HP"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "+150 HP" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 200",
         "class": "Standard",
         "id": 160,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": "+200 HP"
-        },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": "+200 HP"
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "+200 HP" },
+        "bcs": { "type": "", "damage": 60, "affect": "+200 HP" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Recovery 300",
         "class": "Standard",
         "id": 161,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Area Grab",
         "class": "Standard",
         "id": 163,
@@ -3268,58 +1372,26 @@
             "damage": 0,
             "affect": "Two squares are randomly destroyed"
         },
-        "bcs": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 50, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Grab Punsih",
         "class": "Standard",
         "id": 164,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 50, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Grab Revenge",
         "class": "Standard",
         "id": 165,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Panel Return",
         "class": "Standard",
         "id": 166,
@@ -3328,38 +1400,18 @@
             "damage": 0,
             "affect": "One square is randomly destroyed"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Geddon",
         "class": "Standard",
         "id": 167,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Holy Panel",
         "class": "Standard",
         "id": 168,
@@ -3368,18 +1420,10 @@
             "damage": 0,
             "affect": "Damage from enemy is reduced by half"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Sanctuary",
         "class": "Standard",
         "id": 169,
@@ -3388,58 +1432,26 @@
             "damage": 0,
             "affect": "Damage from enemy is greatly reduced"
         },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Coming Road",
         "class": "Standard",
         "id": 170,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Going Road",
         "class": "Standard",
         "id": 171,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Slow Guage",
         "class": "Standard",
         "id": 172,
@@ -3448,18 +1460,10 @@
             "damage": 0,
             "affect": "Custom guage fills up quicker"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Fast Guage",
         "class": "Standard",
         "id": 173,
@@ -3468,18 +1472,10 @@
             "damage": 0,
             "affect": "Custom guage fills up quickly"
         },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Full Custom",
         "class": "Standard",
         "id": 174,
@@ -3488,18 +1484,10 @@
             "damage": 0,
             "affect": "Custom guage fills up instantly"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Buster Up",
         "class": "Standard",
         "id": 175,
@@ -3508,38 +1496,18 @@
             "damage": 0,
             "affect": "Greatly increases attack power"
         },
-        "bcs": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bug Fix",
         "class": "Standard",
         "id": 176,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Invisible",
         "class": "Standard",
         "id": 177,
@@ -3548,18 +1516,10 @@
             "damage": 0,
             "affect": "Small amount of HP is restored"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Barrier",
         "class": "Standard",
         "id": 178,
@@ -3568,18 +1528,10 @@
             "damage": 0,
             "affect": "Damage from enemy is slightly reduced"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Barrier 100",
         "class": "Standard",
         "id": 179,
@@ -3588,38 +1540,18 @@
             "damage": 0,
             "affect": "Damage from enemy is greatly reduced"
         },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Barrier 200",
         "class": "Standard",
         "id": 180,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bubble Wrap",
         "class": "Standard",
         "id": 181,
@@ -3628,18 +1560,10 @@
             "damage": 0,
             "affect": "Damage from enemy is reduced by half"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Life Aura",
         "class": "Standard",
         "id": 182,
@@ -3648,2075 +1572,831 @@
             "damage": 0,
             "affect": "Recovers a large amount of HP"
         },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Magnet Coil",
         "class": "Standard",
         "id": 183,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "White Capsule",
         "class": "Standard",
         "id": 184,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Uninstall",
         "class": "Standard",
         "id": 185,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 70, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Anti Navi",
         "class": "Standard",
         "id": 186,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Anti Damage",
         "class": "Standard",
         "id": 187,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Anti Sword",
         "class": "Standard",
         "id": 188,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Anti Recovery",
         "class": "Standard",
         "id": 189,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Copy Damage",
         "class": "Standard",
         "id": 190,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 80, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Life Synchro",
         "class": "Standard",
         "id": 191,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Attack +10",
         "class": "Standard",
         "id": 192,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Navi +20",
         "class": "Standard",
         "id": 193,
-        "pet": {
-            "type": "",
-            "damage": 30,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Color Point",
         "class": "Standard",
         "id": 194,
-        "pet": {
-            "type": "",
-            "damage": 50,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Attack +30",
         "class": "Standard",
         "id": 195,
-        "pet": {
-            "type": "",
-            "damage": 40,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Double Point",
         "class": "Standard",
         "id": 196,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Element Trap",
         "class": "Standard",
         "id": 197,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Colonel Army",
         "class": "Standard",
         "id": 198,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Blizzard Ball",
         "class": "Standard",
         "id": 199,
-        "pet": {
-            "type": "",
-            "damage": 60,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Time Bomb 2",
         "class": "Standard",
         "id": 200,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Time Bomb 3",
         "class": "Standard",
         "id": 201,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Big Bomb",
         "class": "Standard",
         "id": 202,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Roll",
         "class": "Mega",
         "id": 221,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Roll V2",
         "class": "Mega",
         "id": 222,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Roll V3",
         "class": "Mega",
         "id": 223,
-        "pet": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 90, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ProtoMan",
         "class": "Mega",
         "id": 224,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ProtoMan EX",
         "class": "Mega",
         "id": 225,
-        "pet": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 120, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ProtoMan SP",
         "class": "Mega",
         "id": 226,
-        "pet": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 150, "affect": "" },
+        "bcs": { "type": "", "damage": 180, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "HeatMan",
         "class": "Mega",
         "id": 227,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "HeatMan EX",
         "class": "Mega",
         "id": 228,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "HeatMan SP",
         "class": "Mega",
         "id": 229,
-        "pet": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 140, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ElecMan",
         "class": "Mega",
         "id": 230,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ElecMan EX",
         "class": "Mega",
         "id": 231,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ElecMan SP",
         "class": "Mega",
         "id": 232,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "SlashMan",
         "class": "Mega",
         "id": 233,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "SlashMan EX",
         "class": "Mega",
         "id": 234,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "SlashMan SP",
         "class": "Mega",
         "id": 235,
-        "pet": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 90, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "EraseMan",
         "class": "Mega",
         "id": 236,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "EraseMan EX",
         "class": "Mega",
         "id": 237,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "EraseMan SP",
         "class": "Mega",
         "id": 238,
-        "pet": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 140, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ChargeMan",
         "class": "Mega",
         "id": 239,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ChargeMan EX",
         "class": "Mega",
         "id": 240,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ChargeMan SP",
         "class": "Mega",
         "id": 241,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "SpoutMan",
         "class": "Mega",
         "id": 242,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 100, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "SpoutMan EX",
         "class": "Mega",
         "id": 243,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "SpoutMan SP",
         "class": "Mega",
         "id": 244,
-        "pet": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 170,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 90, "affect": "" },
+        "bcs": { "type": "", "damage": 170, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "TomahawkMan",
         "class": "Mega",
         "id": 245,
-        "pet": {
-            "type": "",
-            "damage": 100,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "TomahawkMan EX",
         "class": "Mega",
         "id": 246,
-        "pet": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 120, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "TomahawkMan SP",
         "class": "Mega",
         "id": 247,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "TenguMan",
         "class": "Mega",
         "id": 248,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "TenguMan EX",
         "class": "Mega",
         "id": 249,
-        "pet": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 160,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 90, "affect": "" },
+        "bcs": { "type": "", "damage": 160, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "TenguMan SP",
         "class": "Mega",
         "id": 250,
-        "pet": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 140, "affect": "" },
+        "bcs": { "type": "", "damage": 180, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "GroundMan",
         "class": "Mega",
         "id": 251,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "GroundMan EX",
         "class": "Mega",
         "id": 252,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 140,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 140, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "GroundMan SP",
         "class": "Mega",
         "id": 253,
-        "pet": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 90, "affect": "" },
+        "bcs": { "type": "", "damage": 180, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "DustMan",
         "class": "Mega",
         "id": 254,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "DustMan EX",
         "class": "Mega",
         "id": 255,
-        "pet": {
-            "type": "",
-            "damage": 80,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 80, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "DustMan SP",
         "class": "Mega",
         "id": 256,
-        "pet": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 170,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 120, "affect": "" },
+        "bcs": { "type": "", "damage": 170, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "BlastMan",
         "class": "Mega",
         "id": 257,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 110,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "BlastMan EX",
         "class": "Mega",
         "id": 258,
-        "pet": {
-            "type": "",
-            "damage": 90,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 90, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "BlastMan SP",
         "class": "Mega",
         "id": 259,
-        "pet": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 130, "affect": "" },
+        "bcs": { "type": "", "damage": 150, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "DiveMan",
         "class": "Mega",
         "id": 260,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "DiveMan EX",
         "class": "Mega",
         "id": 261,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "DiveMan SP",
         "class": "Mega",
         "id": 262,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "CircusMan",
         "class": "Mega",
         "id": 263,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "CircusMan EX",
         "class": "Mega",
         "id": 264,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "CircusMan SP",
         "class": "Mega",
         "id": 265,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "JudgeMan",
         "class": "Mega",
         "id": 266,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "JudgeMan EX",
         "class": "Mega",
         "id": 267,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "JudgeMan SP",
         "class": "Mega",
         "id": 268,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ElementMan",
         "class": "Mega",
         "id": 269,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ElementMan EX",
         "class": "Mega",
         "id": 270,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "ElementMan SP",
         "class": "Mega",
         "id": 271,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Colonel",
         "class": "Mega",
         "id": 272,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Colonel EX",
         "class": "Mega",
         "id": 273,
-        "pet": {
-            "type": "",
-            "damage": 130,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 130, "affect": "" },
+        "bcs": { "type": "", "damage": 180, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Colonel SP",
         "class": "Mega",
         "id": 274,
-        "pet": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 200,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 150, "affect": "" },
+        "bcs": { "type": "", "damage": 200, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hakushaku",
         "class": "Mega",
         "id": 275,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hakushaku EX",
         "class": "Mega",
         "id": 276,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hakushaku SP",
         "class": "Mega",
         "id": 277,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Django",
         "class": "Mega",
         "id": 278,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Django 2",
         "class": "Mega",
         "id": 279,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Django 3",
         "class": "Mega",
         "id": 280,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Punch Arm",
         "class": "Standard",
         "id": 281,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Needle Arm",
         "class": "Standard",
         "id": 282,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Pulse Arm",
         "class": "Standard",
         "id": 283,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Boomerang Arm",
         "class": "Standard",
         "id": 284,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Synchro Trigger",
         "class": "Mega",
         "id": 285,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Dark Sword",
         "class": "Dark",
         "id": 286,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 200,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 200, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Dark Thunder",
         "class": "Dark",
         "id": 287,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Dark Recovery",
         "class": "Dark",
         "id": 288,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Dark Invis",
         "class": "Dark",
         "id": 289,
-        "pet": {
-            "type": "",
-            "damage": 70,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 120,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 70, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Dark Plus",
         "class": "Dark",
         "id": 290,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bass",
         "class": "Giga",
         "id": 301,
-        "pet": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 240,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 150, "affect": "" },
+        "bcs": { "type": "", "damage": 240, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Big Hook",
         "class": "Giga",
         "id": 302,
-        "pet": {
-            "type": "",
-            "damage": 250,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 230,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 250, "affect": "" },
+        "bcs": { "type": "", "damage": 230, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Delta Ray Edge",
         "class": "Giga",
         "id": 303,
-        "pet": {
-            "type": "",
-            "damage": 200,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 230,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 200, "affect": "" },
+        "bcs": { "type": "", "damage": 230, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Colonel Force",
         "class": "Giga",
         "id": 304,
-        "pet": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 210,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 150, "affect": "" },
+        "bcs": { "type": "", "damage": 210, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bug Rise Sword",
         "class": "Giga",
         "id": 305,
-        "pet": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 220,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 180, "affect": "" },
+        "bcs": { "type": "", "damage": 220, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bass Another",
         "class": "Giga",
         "id": 306,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Meteor Knuckle",
         "class": "Giga",
         "id": 307,
-        "pet": {
-            "type": "",
-            "damage": 250,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 200,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 250, "affect": "" },
+        "bcs": { "type": "", "damage": 200, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Cross Divide",
         "class": "Giga",
         "id": 308,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Hub Batch",
         "class": "Giga",
         "id": 309,
-        "pet": {
-            "type": "",
-            "damage": 180,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 200,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 180, "affect": "" },
+        "bcs": { "type": "", "damage": 200, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Bug Death Thunder",
         "class": "Giga",
         "id": 310,
-        "pet": {
-            "type": "",
-            "damage": 150,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 250,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 150, "affect": "" },
+        "bcs": { "type": "", "damage": 250, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Double Beast",
         "class": "Mega",
         "id": 311,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Gregar",
         "class": "Giga",
         "id": 312,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     },
-	{
+    {
         "name": "Falzar",
         "class": "Giga",
         "id": 313,
-        "pet": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "bcs": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        },
-        "gba": {
-            "type": "",
-            "damage": 0,
-            "affect": ""
-        }
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
     }
 ]

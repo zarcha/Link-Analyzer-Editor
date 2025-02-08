@@ -1,23 +1,23 @@
 <script>
-    let {name, value = $bindable()} = $props();
+    let { value = $bindable() } = $props();
 
-    let naviList = [
-        "HeatMan",
-        "ElecMan",
-        "SlashMan",
-        "EraseMan",
-        "ChargeMan",
-        "SpoutMan/AquaMan",
-        "TomahawkMan",
-        "TenguMan",
-        "GroundMan",
-        "DustMan",
-        "MegaMan",
-        "ProtoMan",
-        "Dark ProtoMan",
-        "Colonel",
-        "Forte/Bass",
-        "Dark MegaMan"
+    const naviList = [
+        'HeatMan',
+        'ElecMan',
+        'SlashMan',
+        'EraseMan',
+        'ChargeMan',
+        'SpoutMan/AquaMan',
+        'TomahawkMan',
+        'TenguMan',
+        'GroundMan',
+        'DustMan',
+        'MegaMan',
+        'ProtoMan',
+        'Dark ProtoMan',
+        'Colonel',
+        'Forte/Bass',
+        'Dark MegaMan'
     ];
 </script>
 
@@ -28,7 +28,8 @@
         </button>
         <ul class="dropdown-menu">
             {#each naviList as navi, index}
-            <li class="pointer"><a class="dropdown-item navi-size align-center" onclick={() => value = index + 1}>{navi}</a></li>
+            <!-- svelte-ignore a11y_invalid_attribute -->
+            <li class="pointer"><a href="#" class="dropdown-item navi-size align-center" onclick={() => value = index + 1}>{navi}</a></li>
             {/each}
         </ul>
     </div>

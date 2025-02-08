@@ -1,41 +1,46 @@
 <script>
-    import axios from "axios";
-    import { Buffer } from "buffer";
+    import axios from 'axios';
+    // eslint-disable-next-line 
+    import { Buffer } from 'buffer'; 
 
     let { chipInfo = $bindable() } = $props();
 
     async function getImage() {
+        const noDataImage = 'images/no-data.png';
+
         try{
-            let res = await axios.get(`chips-hi-rez/${chipInfo.id}.png`, {
+            const res = await axios.get(`images/chips-hi-rez/${chipInfo.id}.png`, {
                 responseType: 'arraybuffer',
             });
 
-            if(res.headers["content-type"] == "image/png"){
+            if(res.headers['content-type'] == 'image/png'){
                 const base64 = Buffer.from(res.data, 'binary').toString('base64');
                 const base64Image = `data:image/png;base64,${base64}`;
                 chipInfo.chipArt = base64Image;
             }else{
-                chipInfo.chipArt = "no-data.png";
+                chipInfo.chipArt = noDataImage;
             }
         }catch(error){
-            chipInfo.chipArt = "no-data.png";
+            console.error(error);
+            chipInfo.chipArt = noDataImage;
         }
         
 
         try{
-            let res = await axios.get(`chips-attack-pattern/${chipInfo.id}.png`, {
+            const res = await axios.get(`images/chips-attack-pattern/${chipInfo.id}.png`, {
                 responseType: 'arraybuffer',
             });
             
-            if(res.headers["content-type"] == "image/png"){
+            if(res.headers['content-type'] == 'image/png'){
                 const base64 = Buffer.from(res.data, 'binary').toString('base64');
                 const base64Image = `data:image/png;base64,${base64}`;
                 chipInfo.attackArt = base64Image;
             }else{
-                chipInfo.attackArt = "no-data.png";
+                chipInfo.attackArt = noDataImage;
             }
         }catch(error){
-            chipInfo.attackArt = "no-data.png"
+            console.error(error);
+            chipInfo.attackArt = noDataImage;
         }
         
     }
@@ -60,13 +65,13 @@
         <div class="image-container card">
             <div class="card-header">Chip Art</div>
             <div class="card-body">
-                <img src={chipInfo.chipArt} />
+                <img src={chipInfo.chipArt} alt="No Art"/>
             </div>
         </div>
         <div class="image-container card">
             <div class="card-header">Attack Pattern</div>
             <div class="card-body">
-                 <img src={chipInfo.attackArt} />
+                 <img src={chipInfo.attackArt} alt="No Art"/>
             </div>
         </div>
         <div class="info-container">

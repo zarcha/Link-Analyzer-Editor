@@ -1,22 +1,36 @@
 {
-  "name": "link-analyzer-editor",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^5.0.3",
-    "svelte": "^5.15.0",
-    "vite": "^6.0.5"
-  },
-  "dependencies": {
-    "axios": "^1.7.9",
-    "bmp-js": "^0.1.0",
-    "buffer": "^6.0.3",
-    "jimp": "^1.6.0"
-  }
+    "name": "link-analyzer-editor",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "prettier:check": "prettier . --check",
+        "prettier": "prettier . --write",
+        "eslint": "eslint --fix --color --max-warnings 0 \"./src\"",
+        "eslint:check": "eslint --color --max-warnings 0 \"./src\""
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.2.0",
+        "@eslint/js": "^9.19.0",
+        "@eslint/migrate-config": "^1.3.7",
+        "@sveltejs/vite-plugin-svelte": "^5.0.3",
+        "eslint": "^9.19.0",
+        "eslint-plugin-import": "^2.31.0",
+        "globals": "^15.14.0",
+        "prettier": "^3.4.2",
+        "prettier-plugin-svelte": "^3.3.3",
+        "svelte": "^5.15.0",
+        "vite": "^6.0.5"
+    },
+    "dependencies": {
+        "@sveltejs/eslint-config": "^8.1.0",
+        "axios": "^1.7.9",
+        "bmp-js": "^0.1.0",
+        "buffer": "^6.0.3",
+        "crypto": "^1.0.1",
+        "jimp": "^1.6.0"
+    }
 }

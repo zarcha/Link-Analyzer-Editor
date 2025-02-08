@@ -1,10 +1,11 @@
 <script>
-  import NaviEditor from "./pages/NaviEditor.svelte";
-  import SideBar from "./component/SideBar.svelte";
-    import ChipLibrary from "./pages/ChipLibrary.svelte";
+  import NaviEditor from './pages/NaviEditor.svelte';
+  import SideBar from './component/SideBar.svelte';
+  import ChipLibrary from './pages/ChipLibrary.svelte';
+  import Toasts from './component/Toasts.svelte';
 
   let port = $state();
-  let page = $state("");
+  let page = $state('');
 </script>
 
 <div>
@@ -12,12 +13,13 @@
     <SideBar bind:port={port} bind:page={page}/>
   </div>
   <div class="content">
-    {#if page == "library"}
+    {#if page == 'library'}
     <ChipLibrary port={port} />
     {:else}
     <NaviEditor port={port}/>
     {/if}
   </div>
+  <Toasts />
 </div>
 
 <style>

@@ -1,25 +1,27 @@
 <script>
-    let { port = false, hasNavi, loading, connect, loadNavi, writeNavi, openNavi, saveNavi} = $props();
+    const { port = false, hasNavi, loading, loadNavi, writeNavi, openNavi, saveNavi} = $props();
 </script>
 
 <div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark custom-nav">
         <div class="container-fluid">
             <ul class="navbar-nav mr-auto">
-                {#if port}
                 <li class="nav-item">
-                    <button type="button" class="btn btn-warning" onclick={loadNavi}><i class="fa-solid fa-upload"></i></button>
+                    <!-- svelte-ignore a11y_consider_explicit_label -->
+                    <button type="button" class="btn btn-warning {port ? '' : 'disabled'}" onclick={loadNavi} title="Read from Link Analyzer"><i class="fa-solid fa-upload"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
-                    <button type="button" class="btn btn-warning {hasNavi ? "" : "disabled"}" onclick={writeNavi}><i class="fa-solid fa-download"></i></button>
+                    <!-- svelte-ignore a11y_consider_explicit_label -->
+                    <button type="button" class="btn btn-warning {hasNavi ? '' : 'disabled'} {port ? '' : 'disabled'}" onclick={writeNavi} title="Write to Link Analyzer"><i class="fa-solid fa-download"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
-                    <button type="button" class="btn btn-warning" onclick={openNavi}><i class="fa-solid fa-folder-open"></i></button>
+                    <!-- svelte-ignore a11y_consider_explicit_label -->
+                    <button type="button" class="btn btn-warning" onclick={openNavi} title="Load Navi from file"><i class="fa-solid fa-folder-open"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
-                    <button type="button" class="btn btn-warning {hasNavi ? "" : "disabled"}" onclick={saveNavi}><i class="fa-solid fa-floppy-disk"></i></button>
+                    <!-- svelte-ignore a11y_consider_explicit_label -->
+                    <button type="button" class="btn btn-warning {hasNavi ? '' : 'disabled'}" onclick={saveNavi} title="Save Navi to file"><i class="fa-solid fa-floppy-disk"></i></button>
                 </li>
-                {/if}
             </ul>
             <ul class="navbar-nav ml-auto">
                 {#if loading}
