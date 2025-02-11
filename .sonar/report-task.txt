@@ -1,0 +1,6 @@
+projectKey=link-analyzer-editor
+serverUrl=http://localhost:9001
+serverVersion=25.2.0.102705
+dashboardUrl=http://localhost:9001/dashboard?id=link-analyzer-editor
+ceTaskId=95ffac38-db9d-4329-965d-f27c7f18f011
+ceTaskUrl=http://localhost:9001/api/ce/task?id=95ffac38-db9d-4329-965d-f27c7f18f011

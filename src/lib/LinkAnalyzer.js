@@ -21,25 +21,35 @@ async function writeSync(port, data) {
 }
 
 async function read(port, timeout) {
-    const reader = port.readable.getReader();
-    let res = '';
+    //Needs to be async inside to capture timeout error properly and reader.read() has to be await for some reason because there is no
+    //new data event to trigger on so while(true) is needed and reader.read().then causes infa loop.
+    // eslint-disable-next-line no-async-promise-executor
+    return new Promise(async (resolve, reject) => {
+        // NOSONAR
+        const reader = port.readable.getReader();
+        let res = '';
+        let readTimeout;
 
-    const readTimeout = setTimeout(() => {
-        throw new Error(`Timed out reading for ${timeout / 1000}s`);
-    }, timeout);
+        if (timeout) {
+            readTimeout = setTimeout(() => {
+                reader.releaseLock();
+                reject(new Error(`Timed out reading for ${timeout / 1000}s`));
+            }, timeout);
+        }
 
-    while (true) {
-        const { value } = await reader.read();
+        while (true) {
+            const { value } = await reader.read();
 
-        res += new TextDecoder().decode(value);
+            res += new TextDecoder().decode(value);
 
-        if (res.includes('\n')) break;
-    }
+            if (res.includes('\n')) break;
+        }
 
-    clearTimeout(readTimeout);
-    reader.releaseLock();
+        clearTimeout(readTimeout);
+        reader.releaseLock();
 
-    return res.replace(/(\r\n|\n|\r)/gm, '');
+        resolve(res.replace(/(\r\n|\n|\r)/gm, ''));
+    });
 }
 
 export default { write, writeSync, read, connect };

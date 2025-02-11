@@ -109,7 +109,7 @@
                 {#if chipInfo.bcs.type}
                 <div class="input-group">
                     <span class="input-group-text">TYPE</span>
-                    <span class="form-control">{chipInfo.bs.type}</span>
+                    <span class="form-control">{chipInfo.bcs.type}</span>
                 </div>
                 <br>
                 {/if}

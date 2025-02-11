@@ -27,8 +27,6 @@ async function createImageFromHex(hexString) {
                 const reversedByte = reverseBits(byteValue);
 
                 bit = (reversedByte >> (7 - bitPosition)) & 1;
-            } else {
-                bit = 0;
             }
 
             const color = bit === 0 ? 0xffffffff : 0x000000ff;
@@ -37,7 +35,7 @@ async function createImageFromHex(hexString) {
     }
 
     return {
-        rawImage: await image.clone(),
+        rawImage: image.clone(),
         dispalyImg: await image
             .rotate(-90)
             .flip({ horizontal: true, vertical: false })
@@ -53,7 +51,7 @@ async function createHexFromImage(arrayBuffer) {
         throw new Error('Image must be 32x32.');
     }
 
-    await image.greyscale().flip({ horizontal: true, vertical: false }).rotate(90);
+    image.greyscale().flip({ horizontal: true, vertical: false }).rotate(90);
     const bmpData = image.bitmap.data.toString('HEX');
     let currentBin = '';
     let hex = '';

@@ -57,9 +57,9 @@
 
 <div class="toast-container">
     {#each [...toasts].reverse() as toast}
-    <div id="toast-{toast.id}" class="toast-box bg-{types[toast.type].bgColor}" style="color: {types[toast.type].textColor}">
+    <div id="toast-{toast.id}" data-testid="toast-box" class="toast-box bg-{types[toast.type].bgColor}" style="color: {types[toast.type].textColor}">
         <div>
-            <span class="fa-solid {types[toast.type].icon}"></span>
+            <span data-testid="toast-icon" class="fa-solid {types[toast.type].icon}"></span>
         </div>
         <div class="toast-content">
             {toast.content}
@@ -86,12 +86,5 @@
         border-radius: 5px;
         margin-top: 5px;
         opacity: 1;
-    }
-
-    .toast-close {
-        margin-left: 10px;
-        font-size: 12px;
-        font-weight: bold;
-        float: right;
     }
 </style>

@@ -26,8 +26,12 @@ describe('Test version update warning', () => {
         flushSync();
 
         const message = screen.getByText('Your Link Analyzer is not up to date!');
+        const currentVersion = screen.getByText('Link Analyzer Version: v2.0.1');
+        const expectedVersion = screen.getByText('Current Version: v2.0.2');
 
         expect(message).toBeInTheDocument();
+        expect(currentVersion).toBeInTheDocument();
+        expect(expectedVersion).toBeInTheDocument();
     });
 
     it('Verify warning does show if versions dont match', async () => {
@@ -47,8 +51,12 @@ describe('Test version update warning', () => {
         flushSync();
 
         const message = screen.queryByText('Your Link Analyzer is not up to date!');
+        const currentVersion = screen.queryByText('Link Analyzer Version: v2.0.2');
+        const expectedVersion = screen.queryByText('Current Version: v2.0.2');
 
         expect(message).toBeNull();
+        expect(currentVersion).toBeNull();
+        expect(expectedVersion).toBeNull();
     });
 
     it('Makes sure open firmware works', async () => {

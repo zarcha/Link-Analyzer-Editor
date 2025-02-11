@@ -10,6 +10,7 @@ export default defineConfig({
         globals: true,
         setupFiles: ['scripts/setupTests.js'],
         coverage: {
+            reporter: ['lcov'],
             include: ['src/**'],
             exclude: ['**/__mocks__/**', '**/resources/**'],
         },

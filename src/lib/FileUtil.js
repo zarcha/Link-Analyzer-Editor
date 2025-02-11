@@ -50,13 +50,13 @@ async function openNavi() {
             throw new Error('Navi file has an incorrect length.');
         }
 
-        for (let i = 0; i < uint8Array.length; i++) {
-            out += int2hex(uint8Array[i]);
+        for (const data of uint8Array) {
+            out += int2hex(data);
         }
 
         return LinkChip.toObject(out);
     } catch (error) {
-        if (!error.message.includes('Window')) {
+        if (!error.message.toLowerCase().includes('window')) {
             throw new Error(error);
         }
     }
@@ -87,7 +87,7 @@ async function saveImage(name, image, format) {
         await writable.close();
         return fileHandle.name;
     } catch (error) {
-        if (!error.message.includes('Window')) {
+        if (!error.message.toLowerCase().includes('window')) {
             throw new Error(error);
         }
     }
@@ -108,11 +108,9 @@ async function openImage() {
         const file = await fileHandle.getFile();
         const arrayBuffer = await file.arrayBuffer();
 
-        console.log(new Uint8Array(arrayBuffer));
-
         return imgUtil.createHexFromImage(arrayBuffer);
     } catch (error) {
-        if (!error.message.includes('Window')) {
+        if (!error.message.toLowerCase().includes('window')) {
             throw new Error(error);
         }
     }

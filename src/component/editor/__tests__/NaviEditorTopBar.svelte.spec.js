@@ -62,4 +62,16 @@ describe('Tests Navi Editor Top Bar', () => {
 
         expect(loading).toBeInTheDocument();
     });
+
+    it('has buttons disabled when no port or navi exists', async () => {
+        await render(NaviEditorTopBar);
+
+        const loadNaviBtn = screen.getByTestId('load-navi');
+        const writeNaviBtn = screen.getByTestId('write-navi');
+        const saveNaviBtn = screen.getByTestId('save-navi');
+
+        expect(loadNaviBtn).toHaveClass('disabled');
+        expect(writeNaviBtn).toHaveClass('disabled');
+        expect(saveNaviBtn).toHaveClass('disabled');
+    });
 });

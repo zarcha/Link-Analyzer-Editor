@@ -24,34 +24,43 @@ describe('Test SideBar', () => {
         expect(publish).toHaveBeenCalled();
     });
 
-    // it('Test connect button', async () => {
-    //     vi.mock('../../lib/LinkAnalyzer');
-    //     LinkAnalyzer.connect = vi.fn().mockResolvedValue({
-    //         close: vi.fn(),
-    //         addEventListener: vi.fn()
-    //     });
-    //
-    //     vi.mock('../../lib/util');
-    //     delay.default = vi.fn().mockResolvedValue({});
-    //
-    //     vi.mock('../../lib/Store.js');
-    //     publish.default = vi.fn().mockReturnThis({});
-    //
-    //     await render(SideBar, {
-    //         props: {
-    //             port: null,
-    //             page: ""
-    //         }
-    //     });
-    //
-    //     const connect = screen.getByText("Connect");
-    //     await connect.click();
-    //     flushSync();
-    //
-    //     const disconnect = screen.getByText("Disconnect");
-    //     expect(disconnect).toBeInTheDocument();
-    //
-    // });
+    it('Test connect button', async () => {
+        Object.defineProperty(window.navigator, 'serial', {
+            value: {},
+            configurable: true, // Allows redefining in different tests
+        });
+
+        vi.mock('../../lib/LinkAnalyzer');
+        LinkAnalyzer.connect = vi.fn().mockResolvedValue({
+            close: vi.fn(),
+            addEventListener: vi.fn(),
+        });
+
+        vi.mock('../../lib/util');
+        delay.default = vi.fn().mockResolvedValue({});
+
+        vi.mock('../../lib/Store.js');
+        publish.default = vi.fn().mockReturnThis({});
+
+        await render(SideBar, {
+            props: {
+                port: null,
+                page: '',
+            },
+        });
+
+        flushSync();
+
+        const connect = screen.getByText('Connect');
+        await connect.click();
+
+        //Needs to wait because things dont render quick enough
+        await new Promise((resolve) => setTimeout(resolve, 100));
+        flushSync();
+
+        const disconnect = screen.getByText('Disconnect');
+        expect(disconnect).toBeInTheDocument();
+    });
 
     it('Test connect button failure', async () => {
         Object.defineProperty(window.navigator, 'serial', {

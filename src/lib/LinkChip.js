@@ -136,15 +136,15 @@ function getRawValue(field, raw) {
 }
 
 function setRawValue(field, value, raw) {
-    return raw.replaceAt(locations[field].start * 2, locations[field].start * 2 + locations[field].length * 2, value);
+    return replaceAt(raw, locations[field].start * 2, locations[field].start * 2 + locations[field].length * 2, value);
 }
 
 function pinoutToBin(pinout) {
     return pinout.substring(2).slice(0, -1).split('').reverse().join('').padStart(16, '0');
 }
 
-String.prototype.replaceAt = function (start, end, replacement) {
-    return this.substring(0, start) + replacement + this.substring(start + replacement.length, this.length);
-};
+function replaceAt(source, start, end, replacement) {
+    return source.substring(0, start) + replacement + source.substring(start + replacement.length, source.length);
+}
 
 export default { toObject, toRaw, pinoutToBin };

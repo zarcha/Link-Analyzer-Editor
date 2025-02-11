@@ -1,7 +1,11 @@
 import { vi, expect, it, describe, afterAll } from 'vitest';
 import FileUtil from '../FileUtil.js';
+import naviFile from './resources/naviFile.js';
+import spriteImg from './resources/spriteImg.js';
+import imgUtil from '../imgUtil.js';
+import { Jimp } from 'jimp';
 
-const obj = {
+const naviObj = {
     petId: 2555,
     owner: 0,
     naviId: 4,
@@ -27,7 +31,7 @@ describe('Test File Utilities', () => {
         vi.clearAllMocks();
     });
 
-    it('Save Navi', () => {
+    it('Save Navi', async () => {
         Object.defineProperty(window, 'showSaveFilePicker', {
             value: vi.fn().mockResolvedValue({
                 name: 'backup.navi',
@@ -39,8 +43,176 @@ describe('Test File Utilities', () => {
             configurable: true,
         });
 
-        FileUtil.saveNavi(obj).then((fileName) => {
-            expect(fileName).toBe('backup.navi');
+        const fileName = await FileUtil.saveNavi(naviObj);
+        expect(fileName).toBe('backup.navi');
+    });
+
+    it('Saves Navi file but an error happens', async () => {
+        Object.defineProperty(window, 'showSaveFilePicker', {
+            value: vi.fn().mockRejectedValue({ message: 'Something went wrong' }),
+            configurable: true,
         });
+
+        try {
+            await FileUtil.saveNavi(naviObj);
+        } catch (error) {
+            expect(error.message).not.toBeUndefined();
+        }
+    });
+
+    it('Saves Navi file but an error happens but nothing new is thrown', async () => {
+        Object.defineProperty(window, 'showSaveFilePicker', {
+            value: vi.fn().mockRejectedValue({ message: 'window had an error' }),
+            configurable: true,
+        });
+
+        const res = await FileUtil.saveNavi(naviObj);
+        expect(res).toBeUndefined();
+    });
+
+    it('Opens navi file', async () => {
+        Object.defineProperty(window, 'showOpenFilePicker', {
+            value: vi.fn().mockResolvedValue([
+                {
+                    getFile: vi.fn().mockResolvedValue({
+                        arrayBuffer: vi.fn().mockResolvedValue(naviFile.buffer),
+                    }),
+                },
+            ]),
+            configurable: true,
+        });
+
+        const res = await FileUtil.openNavi();
+        expect(res).toStrictEqual(naviObj);
+    });
+
+    it('Opens navi file that is too short', async () => {
+        Object.defineProperty(window, 'showOpenFilePicker', {
+            value: vi.fn().mockResolvedValue([
+                {
+                    getFile: vi.fn().mockResolvedValue({
+                        arrayBuffer: vi.fn().mockResolvedValue(naviFile.buffer.slice(5)),
+                    }),
+                },
+            ]),
+            configurable: true,
+        });
+
+        try {
+            await FileUtil.openNavi();
+        } catch (error) {
+            expect(error.message).not.toBeUndefined();
+        }
+    });
+
+    it('Opens navi file but an error happens and no new error is thrown', async () => {
+        Object.defineProperty(window, 'showOpenFilePicker', {
+            value: vi.fn().mockRejectedValue({ message: 'window had an error' }),
+            configurable: true,
+        });
+
+        const res = await FileUtil.openNavi();
+        expect(res).toBeUndefined();
+    });
+
+    it('Opens navi file but an error happens', async () => {
+        Object.defineProperty(window, 'showOpenFilePicker', {
+            value: vi.fn().mockRejectedValue({ message: 'Something went wrong' }),
+            configurable: true,
+        });
+
+        try {
+            await FileUtil.openNavi();
+        } catch (error) {
+            expect(error.message).not.toBeUndefined();
+        }
+    });
+
+    it('Opens a sprite image file', async () => {
+        vi.mock('../imgUtil.js');
+        imgUtil.createHexFromImage = vi.fn();
+
+        Object.defineProperty(window, 'showOpenFilePicker', {
+            value: vi.fn().mockResolvedValue([
+                {
+                    getFile: vi.fn().mockResolvedValue({
+                        arrayBuffer: vi.fn().mockResolvedValue(spriteImg.buffer),
+                    }),
+                },
+            ]),
+            configurable: true,
+        });
+
+        await FileUtil.openImage();
+
+        expect(imgUtil.createHexFromImage).toHaveBeenCalled();
+    });
+
+    it('Opens a sprite image file but an error happens', async () => {
+        vi.mock('../imgUtil.js');
+        imgUtil.createHexFromImage = vi.fn();
+
+        Object.defineProperty(window, 'showOpenFilePicker', {
+            value: vi.fn().mockRejectedValue({ message: 'Something went wrong' }),
+            configurable: true,
+        });
+
+        try {
+            await FileUtil.openImage();
+        } catch (error) {
+            expect(error.message).not.toBeUndefined();
+        }
+    });
+
+    it('Saves sprite image file', async () => {
+        const image = await Jimp.fromBuffer(spriteImg.buffer);
+
+        Object.defineProperty(window, 'showSaveFilePicker', {
+            value: vi.fn().mockResolvedValue({
+                name: 'Cross-Sprite.bmp',
+                createWritable: vi.fn().mockResolvedValue({
+                    write: vi.fn().mockResolvedValue(),
+                    close: vi.fn().mockResolvedValue(),
+                }),
+            }),
+            configurable: true,
+        });
+
+        const fileName = await FileUtil.saveImage('Cross Sprite', image, 'bmp');
+        expect(fileName).toBe('Cross-Sprite.bmp');
+    });
+
+    it('Saves sprite image file as png', async () => {
+        const image = await Jimp.fromBuffer(spriteImg.buffer);
+        image.resize = vi.fn();
+
+        Object.defineProperty(window, 'showSaveFilePicker', {
+            value: vi.fn().mockResolvedValue({
+                name: 'Cross-Sprite.bmp',
+                createWritable: vi.fn().mockResolvedValue({
+                    write: vi.fn().mockResolvedValue(),
+                    close: vi.fn().mockResolvedValue(),
+                }),
+            }),
+            configurable: true,
+        });
+
+        await FileUtil.saveImage('Cross Sprite', image, 'png');
+        expect(image.resize).toHaveBeenCalled();
+    });
+
+    it('Saves sprite image file but an error happens', async () => {
+        const image = await Jimp.fromBuffer(spriteImg.buffer);
+
+        Object.defineProperty(window, 'showSaveFilePicker', {
+            value: vi.fn().mockRejectedValue({ message: 'Something went wrong' }),
+            configurable: true,
+        });
+
+        try {
+            await FileUtil.saveImage('Cross Sprite', image, 'bmp');
+        } catch (error) {
+            expect(error.message).not.toBeUndefined();
+        }
     });
 });

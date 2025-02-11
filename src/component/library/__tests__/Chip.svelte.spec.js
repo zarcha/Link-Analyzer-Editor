@@ -5,18 +5,39 @@ import axios from 'axios';
 import { flushSync } from 'svelte';
 import chipImg from './resources/chipImg.js';
 
-const chipInfo = {
+const populatedChipInfo = {
+    name: 'Cannon',
+    class: 'Standard',
+    id: 1,
+    pet: {
+        type: 'pet type',
+        damage: 30,
+        affect: 'pet affect',
+    },
+    bcs: {
+        type: 'bcs type',
+        damage: 60,
+        affect: 'bcs affect',
+    },
+    gba: {
+        type: 'gba type',
+        damage: 90,
+        affect: 'gba affect',
+    },
+};
+
+const emptyChipInfo = {
     name: 'Cannon',
     class: 'Standard',
     id: 1,
     pet: {
         type: '',
-        damage: 30,
+        damage: 0,
         affect: '',
     },
     bcs: {
         type: '',
-        damage: 60,
+        damage: 0,
         affect: '',
     },
     gba: {
@@ -42,27 +63,30 @@ describe('Test Chip', () => {
 
         await render(Chip, {
             props: {
-                chipInfo,
+                chipInfo: populatedChipInfo,
             },
         });
 
-        let tmp = screen.getByText(chipInfo.name.toUpperCase());
+        let tmp = screen.getByText(populatedChipInfo.name.toUpperCase());
         expect(tmp).toBeInTheDocument();
 
-        tmp = screen.getByText(chipInfo.class);
+        tmp = screen.getByText(populatedChipInfo.class);
         expect(tmp).toBeInTheDocument();
 
-        tmp = screen.getByText(chipInfo.id);
+        tmp = screen.getByText(populatedChipInfo.id);
         expect(tmp).toBeInTheDocument();
 
-        tmp = screen.getByText(chipInfo.pet.damage);
+        tmp = screen.getByText(populatedChipInfo.pet.damage);
         expect(tmp).toBeInTheDocument();
 
-        tmp = screen.getByText(chipInfo.bcs.damage);
+        tmp = screen.getByText(populatedChipInfo.bcs.damage);
+        expect(tmp).toBeInTheDocument();
+
+        tmp = screen.getByText(populatedChipInfo.gba.damage);
         expect(tmp).toBeInTheDocument();
     });
 
-    it('Chip shows no data for GBA', async () => {
+    it('Chip shows no data for fields', async () => {
         vi.mock('axios');
         axios.get.mockResolvedValue({
             data: chipImg,
@@ -73,13 +97,27 @@ describe('Test Chip', () => {
 
         await render(Chip, {
             props: {
-                chipInfo,
+                chipInfo: emptyChipInfo,
             },
         });
 
-        const noData = screen.getByText('No Data');
+        let tmp = screen.queryByText(populatedChipInfo.pet.damage);
+        expect(tmp).not.toBeInTheDocument();
 
-        expect(noData).toBeInTheDocument();
+        tmp = screen.queryByText(populatedChipInfo.pet.type);
+        expect(tmp).not.toBeInTheDocument();
+
+        tmp = screen.queryByText(populatedChipInfo.bcs.damage);
+        expect(tmp).not.toBeInTheDocument();
+
+        tmp = screen.queryByText(populatedChipInfo.bcs.type);
+        expect(tmp).not.toBeInTheDocument();
+
+        tmp = screen.queryByText(populatedChipInfo.gba.damage);
+        expect(tmp).not.toBeInTheDocument();
+
+        tmp = screen.queryByText(populatedChipInfo.gba.type);
+        expect(tmp).not.toBeInTheDocument();
     });
 
     it('Shows no data when image fails', async () => {
@@ -88,7 +126,7 @@ describe('Test Chip', () => {
 
         await render(Chip, {
             props: {
-                chipInfo,
+                chipInfo: populatedChipInfo,
             },
         });
 
@@ -108,7 +146,7 @@ describe('Test Chip', () => {
 
         await render(Chip, {
             props: {
-                chipInfo,
+                chipInfo: populatedChipInfo,
             },
         });
 

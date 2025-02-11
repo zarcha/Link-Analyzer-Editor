@@ -171,13 +171,13 @@ describe('Tests Navi Editor', () => {
             },
         });
 
-        LinkChip.toRaw = vi.fn().mockRejectedValue({});
+        LinkAnalyzer.writeSync = vi.fn().mockRejectedValue('Something went wrong');
 
         const writeNaviBtn = screen.getByText('Write Navi');
         await writeNaviBtn.click();
 
-        expect(LinkAnalyzer.writeSync).not.toHaveBeenCalled();
-        expect(publish).toHaveBeenCalled();
+        expect(LinkChip.toObject).not.toHaveBeenCalled();
+        expect(publish).toHaveBeenCalledWith('toasts', { content: 'Something went wrong', type: 'error' });
     });
 
     it('Verify publish is called but writeSync is not on Load Navi', async () => {
