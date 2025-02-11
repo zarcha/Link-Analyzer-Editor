@@ -8,25 +8,25 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
                     <!-- svelte-ignore a11y_consider_explicit_label -->
-                    <button type="button" class="btn btn-warning {port ? '' : 'disabled'}" onclick={loadNavi} title="Read from Link Analyzer"><i class="fa-solid fa-upload"></i></button>
+                    <button data-testid="load-navi" type="button" class="btn btn-warning {port ? '' : 'disabled'}" onclick={loadNavi} title="Read from Link Analyzer"><i class="fa-solid fa-upload"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
                     <!-- svelte-ignore a11y_consider_explicit_label -->
-                    <button type="button" class="btn btn-warning {hasNavi ? '' : 'disabled'} {port ? '' : 'disabled'}" onclick={writeNavi} title="Write to Link Analyzer"><i class="fa-solid fa-download"></i></button>
+                    <button data-testid="write-navi" type="button" class="btn btn-warning {hasNavi ? '' : 'disabled'} {port ? '' : 'disabled'}" onclick={writeNavi} title="Write to Link Analyzer"><i class="fa-solid fa-download"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
                     <!-- svelte-ignore a11y_consider_explicit_label -->
-                    <button type="button" class="btn btn-warning" onclick={openNavi} title="Load Navi from file"><i class="fa-solid fa-folder-open"></i></button>
+                    <button data-testid="open-navi" type="button" class="btn btn-warning" onclick={openNavi} title="Load Navi from file"><i class="fa-solid fa-folder-open"></i></button>
                 </li>
                 <li class="nav-item" style="padding-left: 10px;">
                     <!-- svelte-ignore a11y_consider_explicit_label -->
-                    <button type="button" class="btn btn-warning {hasNavi ? '' : 'disabled'}" onclick={saveNavi} title="Save Navi to file"><i class="fa-solid fa-floppy-disk"></i></button>
+                    <button data-testid="save-navi" type="button" class="btn btn-warning {hasNavi ? '' : 'disabled'}" onclick={saveNavi} title="Save Navi to file"><i class="fa-solid fa-floppy-disk"></i></button>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 {#if loading}
                 <li class="nav-item" style="">
-                    <div class="spinner-border text-warning"></div>
+                    <div data-testid="loading-icon" class="spinner-border text-warning"></div>
                 </li>
                 {/if}
             </ul>

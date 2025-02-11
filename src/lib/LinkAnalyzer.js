@@ -11,6 +11,8 @@ async function write(port, data) {
     await writer.write(new TextEncoder().encode(data + '\n'));
 
     writer.releaseLock();
+
+    return true;
 }
 
 async function writeSync(port, data) {

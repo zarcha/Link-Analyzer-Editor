@@ -1,6 +1,6 @@
-import { int2hex, bin2hex, flipEndainess } from './util';
+import { int2hex } from './util';
 import LinkChip from './LinkChip';
-import { Jimp } from 'jimp';
+import imgUtil from './imgUtil';
 
 async function saveNavi(navi) {
     try {
@@ -107,27 +107,10 @@ async function openImage() {
 
         const file = await fileHandle.getFile();
         const arrayBuffer = await file.arrayBuffer();
-        const image = await Jimp.fromBuffer(arrayBuffer);
 
-        if (image.bitmap.width != 32 || image.bitmap.height != 32) {
-            throw new Error('Image must be 32x32.');
-        }
+        console.log(new Uint8Array(arrayBuffer));
 
-        await image.greyscale().flip({ horizontal: true, vertical: false }).rotate(90);
-        const bmpData = image.bitmap.data.toString('HEX');
-        let currentBin = '';
-        let hex = '';
-
-        for (let i = 0; i < bmpData.length; i += 8) {
-            currentBin += bmpData.substring(i, i + 8) == 'fefefeff' ? 0 : 1;
-
-            if (currentBin.length == 8) {
-                hex += bin2hex(flipEndainess(currentBin));
-                currentBin = '';
-            }
-        }
-
-        return hex.substring(0, 240);
+        return imgUtil.createHexFromImage(arrayBuffer);
     } catch (error) {
         if (!error.message.includes('Window')) {
             throw new Error(error);

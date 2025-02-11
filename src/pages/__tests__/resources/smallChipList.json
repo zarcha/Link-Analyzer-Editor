@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Cannon",
+        "class": "Standard",
+        "id": 1,
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Hi-Cannon",
+        "class": "Standard",
+        "id": 2,
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Mega Cannon",
+        "class": "Standard",
+        "id": 3,
+        "pet": { "type": "", "damage": 60, "affect": "" },
+        "bcs": { "type": "", "damage": 110, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Air Shot",
+        "class": "Standard",
+        "id": 4,
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 50, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Vulcan 1",
+        "class": "Standard",
+        "id": 5,
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Vulcan 2",
+        "class": "Standard",
+        "id": 6,
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Vulcan 3",
+        "class": "Standard",
+        "id": 7,
+        "pet": { "type": "", "damage": 0, "affect": "" },
+        "bcs": { "type": "", "damage": 0, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Super Vulcan",
+        "class": "Standard",
+        "id": 8,
+        "pet": { "type": "", "damage": 100, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Spreader 1",
+        "class": "Standard",
+        "id": 9,
+        "pet": { "type": "", "damage": 30, "affect": "" },
+        "bcs": { "type": "", "damage": 60, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Spreader 2",
+        "class": "Standard",
+        "id": 10,
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 90, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Spreader 3",
+        "class": "Standard",
+        "id": 11,
+        "pet": { "type": "", "damage": 50, "affect": "" },
+        "bcs": { "type": "", "damage": 120, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    },
+    {
+        "name": "Tank Cannon 1",
+        "class": "Standard",
+        "id": 12,
+        "pet": { "type": "", "damage": 40, "affect": "" },
+        "bcs": { "type": "", "damage": 130, "affect": "" },
+        "gba": { "type": "", "damage": 0, "affect": "" }
+    }
+]

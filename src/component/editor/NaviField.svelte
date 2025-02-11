@@ -23,13 +23,13 @@
 
 <div class="align-center pad-bottom">
     <div class="dropdown">
-        <button type="button" class="btn btn-warning dropdown-toggle navi-size" data-bs-toggle="dropdown">
+        <button data-testid="navi-selected" type="button" class="btn btn-warning dropdown-toggle navi-size" data-bs-toggle="dropdown">
             {naviList[value - 1]}
         </button>
         <ul class="dropdown-menu">
             {#each naviList as navi, index}
             <!-- svelte-ignore a11y_invalid_attribute -->
-            <li class="pointer"><a href="#" class="dropdown-item navi-size align-center" onclick={() => value = index + 1}>{navi}</a></li>
+            <li data-testid="navi-options" class="pointer"><a href="#" class="dropdown-item navi-size align-center" onclick={() => value = index + 1}>{navi}</a></li>
             {/each}
         </ul>
     </div>

@@ -22,7 +22,7 @@
         navi = LinkChip.toObject(tmp);
         publish('toasts', {type: 'success', content: 'Navi loaded from Link Analyzer.'});
       }catch(error){
-        publish('toasts', {type: 'success', content: error.message || error});
+        publish('toasts', {type: 'error', content: error.message || error});
       }
 
       isLoading = false;

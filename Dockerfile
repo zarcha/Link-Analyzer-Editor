@@ -8,6 +8,6 @@ WORKDIR /opt/build
 
 RUN npm install; npm run build
 
-FROM nginx
+FROM nginx:stable
 
 COPY --from=build /opt/build/dist /usr/share/nginx/html

@@ -13,8 +13,12 @@
     async function loadChips() {
         try{
             let res = await axios.get('./link-chips.json');
-            chips = res.data;
-            filterChips();
+            if(res.data){
+                chips = res.data;
+                filterChips();
+            }else {
+                throw new Error("Unable to get chip list");
+            }
         }catch(error){
             console.error(error);
             publish('toasts', {type: 'error', content: 'Failed to load chip list.'});
@@ -66,7 +70,7 @@
 </script>
 
 <div class="chip-list-container">
-    {#if chips.length > 0}
+    {#if filteredChips.length > 0}
     <Search port={port} filter={filterChips} />
     {#each {length: maxChips}, i}
         <Chip bind:chipInfo={filteredChips[i]} />
