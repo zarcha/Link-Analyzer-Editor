@@ -1,7 +1,7 @@
 <script>
-    import FileUtil from '../../lib/FileUtil.js'
+    import FileUtil from '../../lib/fileUtil.js'
     import imgUtil from '../../lib/imgUtil.js';
-    import { publish } from '../../lib/Store.js'
+    import { publish } from '../../lib/store.js'
 
     let {name, value = $bindable()} = $props();
     let dispalyImg = $state();

@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/svelte';
 import { vi, expect, it, describe, afterAll } from 'vitest';
 import Search from '../Search.svelte';
-import LinkAnalyzer from '../../../lib/LinkAnalyzer';
+import LinkAnalyzer from '../../../lib/linkAnalyzer.js';
 
 describe('Verify search works', () => {
     afterAll(() => {

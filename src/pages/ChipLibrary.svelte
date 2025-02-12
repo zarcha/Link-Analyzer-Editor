@@ -3,7 +3,7 @@
     import Chip from '../component/library/Chip.svelte';
     import axios from 'axios';
     import { onMount } from 'svelte';
-    import { publish } from '../lib/Store.js'
+    import { publish } from '../lib/store.js'
 
     let { port } = $props();
     let chips = $state([]);

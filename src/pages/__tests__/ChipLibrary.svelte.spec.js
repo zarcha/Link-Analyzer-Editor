@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/svelte';
 import smallChipList from './resources/smallChipList.json';
 import { flushSync } from 'svelte';
 import ChipLibrary from '../ChipLibrary.svelte';
-import { publish } from '../../lib/Store.js';
+import { publish } from '../../lib/store.js';
 import axios from 'axios';
 
 describe('Test chip library', async () => {
@@ -12,7 +12,7 @@ describe('Test chip library', async () => {
     });
 
     it('Will publish when axios errors', async () => {
-        vi.mock('../../lib/Store.js');
+        vi.mock('../../lib/store.js');
         publish.default = vi.fn().mockReturnThis({});
 
         vi.mock('../../component/library/Chip.svelte');
@@ -29,7 +29,7 @@ describe('Test chip library', async () => {
     });
 
     it('Will load 10 chips', async () => {
-        vi.mock('../../lib/Store.js', () => ({
+        vi.mock('../../lib/store.js', () => ({
             publish: vi.fn().mockReturnValue({}),
         }));
 

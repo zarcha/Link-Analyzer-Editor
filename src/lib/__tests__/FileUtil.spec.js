@@ -1,5 +1,5 @@
 import { vi, expect, it, describe, afterAll } from 'vitest';
-import FileUtil from '../FileUtil.js';
+import FileUtil from '../fileUtil.js';
 import naviFile from './resources/naviFile.js';
 import spriteImg from './resources/spriteImg.js';
 import imgUtil from '../imgUtil.js';
@@ -10,7 +10,7 @@ const naviObj = {
     owner: 0,
     naviId: 4,
     level: 255,
-    experiance: 0,
+    experience: 0,
     health: 250,
     attack: 1,
     wins: 0,

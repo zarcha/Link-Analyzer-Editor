@@ -1,5 +1,5 @@
 import { int2hex } from './util';
-import LinkChip from './LinkChip';
+import LinkChip from './linkChip.js';
 import imgUtil from './imgUtil';
 
 async function saveNavi(navi) {

@@ -1,5 +1,5 @@
 import { expect, it, describe } from 'vitest';
-import { publish, subscribe } from '../Store';
+import { publish, subscribe } from '../store.js';
 
 describe('Test event store', () => {
     it('Publish event and subscribe', () => {

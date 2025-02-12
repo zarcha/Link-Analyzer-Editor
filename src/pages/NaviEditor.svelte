@@ -4,10 +4,10 @@
     import NumberField from '../component/editor/NumberField.svelte';
     import NaviField from '../component/editor/NaviField.svelte';
     import ImageField from '../component/editor/ImageField.svelte';
-    import LinkAnalyzer from '../lib/LinkAnalyzer.js';
-    import LinkChip from '../lib/LinkChip.js'
-    import FileUtil from '../lib/FileUtil';
-    import { publish } from '../lib/Store.js'
+    import LinkAnalyzer from '../lib/linkAnalyzer.js';
+    import LinkChip from '../lib/linkChip.js'
+    import FileUtil from '../lib/fileUtil.js';
+    import { publish } from '../lib/store.js'
   
     let {port = $bindable()} = $props();
 
@@ -101,7 +101,7 @@
               </div>
               <div class='row'>
                   <div class='col'><NumberField name='Navi Level' bind:value={navi.level} maxValue=255 /></div>
-                  <div class='col'><NumberField name='Navi EXP' bind:value={navi.experiance} maxValue=65535 /></div>
+                  <div class='col'><NumberField name='Navi EXP' bind:value={navi.experience} maxValue=65535 /></div>
               </div>
               <div class='row'>
                   <div class='col'><NumberField name='Navi HP' bind:value={navi.health} maxValue=255 /></div>

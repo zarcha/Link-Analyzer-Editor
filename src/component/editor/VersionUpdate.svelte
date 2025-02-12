@@ -1,6 +1,6 @@
 <script>
     import axios from 'axios';
-    import LinkAnalyzer from '../../lib/LinkAnalyzer';
+    import LinkAnalyzer from '../../lib/linkAnalyzer.js';
 
     let {port = $bindable()} = $props();
     let currentVersion = $state('');

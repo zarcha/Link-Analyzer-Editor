@@ -29,7 +29,7 @@ const locations = {
         little: false,
         multiplier: 1,
     },
-    experiance: {
+    experience: {
         start: 10,
         length: 2,
         type: 'int',
@@ -92,7 +92,7 @@ function toObject(raw) {
         owner: getIntValue('owner', raw),
         naviId: getIntValue('naviId', raw),
         level: getIntValue('level', raw),
-        experiance: getIntValue('experiance', raw),
+        experience: getIntValue('experience', raw),
         health: getIntValue('health', raw),
         attack: getIntValue('attack', raw),
         wins: getIntValue('wins', raw),

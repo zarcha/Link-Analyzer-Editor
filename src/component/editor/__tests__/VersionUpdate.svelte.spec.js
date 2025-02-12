@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/svelte';
 import axios from 'axios';
 import { expect, it, describe, vi, afterEach } from 'vitest';
 import VersionUpdate from '../VersionUpdate.svelte';
-import LinkAnalyzer from '../../../lib/LinkAnalyzer';
+import LinkAnalyzer from '../../../lib/linkAnalyzer.js';
 import { flushSync } from 'svelte';
 
 describe('Test version update warning', () => {

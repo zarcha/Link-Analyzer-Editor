@@ -1,7 +1,7 @@
 <script>
     import { delay } from '../lib/util.js';
-    import LinkAnalyzer from '../lib/LinkAnalyzer.js';
-    import { publish } from '../lib/Store.js'
+    import LinkAnalyzer from '../lib/linkAnalyzer.js';
+    import { publish } from '../lib/store.js'
 
     let {port = $bindable(), page = $bindable()} = $props();
     let connecting = $state(false);

@@ -1,5 +1,5 @@
 import { vi, expect, it, describe, beforeEach, afterEach } from 'vitest';
-import LinkAnalyzer from '../LinkAnalyzer.js';
+import LinkAnalyzer from '../linkAnalyzer.js';
 import { TextEncoder, TextDecoder } from 'node:util';
 
 global.TextEncoder = TextEncoder;

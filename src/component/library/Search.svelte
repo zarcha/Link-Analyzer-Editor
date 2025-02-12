@@ -1,5 +1,5 @@
 <script>
-    import LinkAnalyzer from '../../lib/LinkAnalyzer.js';
+    import LinkAnalyzer from '../../lib/linkAnalyzer.js';
 
     const { filter, port } = $props();
     let filterValue = $state('');

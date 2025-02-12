@@ -2,9 +2,9 @@ import { render, screen } from '@testing-library/svelte';
 import { vi, expect, it, describe, afterAll } from 'vitest';
 import SideBar from '../SideBar.svelte';
 import { flushSync } from 'svelte';
-import LinkAnalyzer from '../../lib/LinkAnalyzer';
+import LinkAnalyzer from '../../lib/linkAnalyzer.js';
 import { delay } from '../../lib/util.js';
-import { publish } from '../../lib/Store.js';
+import { publish } from '../../lib/store.js';
 
 describe('Test SideBar', () => {
     afterAll(() => {
@@ -12,7 +12,7 @@ describe('Test SideBar', () => {
     });
 
     it('Test serial doesnt exist', async () => {
-        vi.mock('../../lib/Store.js');
+        vi.mock('../../lib/store.js');
         publish.default = vi.fn().mockRejectedValue('An error happened');
 
         await render(SideBar);
@@ -39,7 +39,7 @@ describe('Test SideBar', () => {
         vi.mock('../../lib/util');
         delay.default = vi.fn().mockResolvedValue({});
 
-        vi.mock('../../lib/Store.js');
+        vi.mock('../../lib/store.js');
         publish.default = vi.fn().mockReturnThis({});
 
         await render(SideBar, {
@@ -71,7 +71,7 @@ describe('Test SideBar', () => {
         vi.mock('../../lib/LinkAnalyzer');
         LinkAnalyzer.connect = vi.fn().mockRejectedValue('Something went wrong');
 
-        vi.mock('../../lib/Store.js');
+        vi.mock('../../lib/store.js');
         publish.default = vi.fn().mockReturnThis({});
 
         await render(SideBar, {
@@ -105,7 +105,7 @@ describe('Test SideBar', () => {
         vi.mock('../../lib/util');
         delay.default = vi.fn().mockResolvedValue({});
 
-        vi.mock('../../lib/Store.js');
+        vi.mock('../../lib/store.js');
         publish.default = vi.fn().mockReturnThis({});
 
         await render(SideBar, {

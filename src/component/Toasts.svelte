@@ -1,5 +1,5 @@
 <script>
-    import { subscribe } from '../lib/Store.js'
+    import { subscribe } from '../lib/store.js'
     import { onMount, onDestroy } from 'svelte';
 
     const types = {

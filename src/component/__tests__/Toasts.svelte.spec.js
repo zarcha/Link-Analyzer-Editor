@@ -10,7 +10,7 @@ describe('Test Toasts', () => {
     });
 
     it('Test publish', async () => {
-        vi.mock('../../lib/Store.js', () => ({
+        vi.mock('../../lib/store.js', () => ({
             subscribe: vi.fn((event, callback) => {
                 if (event === 'toasts') {
                     // Simulate calling the callback function with mock data
@@ -40,7 +40,7 @@ describe('Test Toasts', () => {
     it('Test publish and wait for it to go away', async () => {
         vi.useFakeTimers({ shouldAdvanceTime: true });
 
-        vi.mock('../../lib/Store.js', () => ({
+        vi.mock('../../lib/store.js', () => ({
             subscribe: vi.fn((event, callback) => {
                 if (event === 'toasts') {
                     // Simulate calling the callback function with mock data

@@ -1,18 +1,18 @@
 import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest';
 import { screen, render } from '@testing-library/svelte';
 import NaviEditor from '../NaviEditor.svelte';
-import FileUtil from '../../lib/FileUtil.js';
+import FileUtil from '../../lib/fileUtil.js';
 import { flushSync } from 'svelte';
-import { publish } from '../../lib/Store.js';
-import LinkAnalyzer from '../../lib/LinkAnalyzer.js';
-import LinkChip from '../../lib/LinkChip.js';
+import { publish } from '../../lib/store.js';
+import LinkAnalyzer from '../../lib/linkAnalyzer.js';
+import LinkChip from '../../lib/linkChip.js';
 
 const naviObj = {
     petId: 2555,
     owner: 0,
     naviId: 4,
     level: 255,
-    experiance: 0,
+    experience: 0,
     health: 250,
     attack: 1,
     wins: 0,
@@ -36,17 +36,17 @@ describe('Tests Navi Editor', () => {
         vi.mock('../../component/editor/NumberField.svelte');
         vi.mock('../../component/editor/VersionUpdate.svelte');
 
-        vi.mock('../../lib/Store.js');
+        vi.mock('../../lib/store.js');
         publish.default = vi.fn().mockReturnThis({});
 
-        vi.mock('../../lib/FileUtil.js');
+        vi.mock('../../lib/fileUtil.js');
         FileUtil.openNavi = vi.fn().mockResolvedValue(naviObj);
         FileUtil.saveNavi = vi.fn().mockResolvedValue('test.navi');
 
-        vi.mock('../../lib/LinkAnalyzer.js');
+        vi.mock('../../lib/linkAnalyzer.js');
         LinkAnalyzer.writeSync = vi.fn().mockResolvedValue(naviObj.raw);
 
-        vi.mock('../../lib/LinkChip.js');
+        vi.mock('../../lib/linkChip.js');
         LinkChip.toRaw = vi.fn().mockReturnValue(naviObj);
         LinkChip.toObject = vi.fn().mockReturnValue(naviObj);
     });
