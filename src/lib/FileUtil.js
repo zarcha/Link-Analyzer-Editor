@@ -24,7 +24,7 @@ async function saveNavi(navi) {
         return fileHandle.name;
     } catch (error) {
         if (!error.message.toLowerCase().includes('window')) {
-            throw new Error(error);
+            throw error;
         }
     }
 }
@@ -57,7 +57,7 @@ async function openNavi() {
         return LinkChip.toObject(out);
     } catch (error) {
         if (!error.message.toLowerCase().includes('window')) {
-            throw new Error(error);
+            throw error;
         }
     }
 }
@@ -88,7 +88,7 @@ async function saveImage(name, image, format) {
         return fileHandle.name;
     } catch (error) {
         if (!error.message.toLowerCase().includes('window')) {
-            throw new Error(error);
+            throw error;
         }
     }
 }
@@ -111,7 +111,7 @@ async function openImage() {
         return imgUtil.createHexFromImage(arrayBuffer);
     } catch (error) {
         if (!error.message.toLowerCase().includes('window')) {
-            throw new Error(error);
+            throw error;
         }
     }
 }

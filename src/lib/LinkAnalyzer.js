@@ -24,8 +24,7 @@ async function read(port, timeout) {
     //Needs to be async inside to capture timeout error properly and reader.read() has to be await for some reason because there is no
     //new data event to trigger on so while(true) is needed and reader.read().then causes infa loop.
     // eslint-disable-next-line no-async-promise-executor
-    return new Promise(async (resolve, reject) => {
-        // NOSONAR
+    /* prettier-ignore */ return new Promise(async (resolve, reject) => { // NOSONAR
         const reader = port.readable.getReader();
         let res = '';
         let readTimeout;

@@ -18,7 +18,7 @@ const locations = {
     owner: {
         start: 4,
         length: 5,
-        type: 'int',
+        type: 'string',
         little: false,
         multiplier: 1,
     },
