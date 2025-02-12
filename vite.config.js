@@ -3,7 +3,7 @@ import { defineConfig } from 'vitest/config';
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: process.env.BUILD_ENV ? '/' : '/Link-Analyzer-Editor/',
+    base: '/',
     plugins: [svelte()],
     test: {
         environment: 'jsdom',

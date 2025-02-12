@@ -142,6 +142,7 @@ describe('Test SideBar', () => {
 
         const library = screen.getByText('Chip Catalog');
         library.click();
+
         flushSync();
 
         expect(library).toHaveClass('bg-warning');

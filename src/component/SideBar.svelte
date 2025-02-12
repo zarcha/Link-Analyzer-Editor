@@ -81,6 +81,7 @@
         </div>
         <div class="margin-top-bottom">
             <a href="https://ko-fi.com/zarch" target="_blank"><img class="kofi" src="images/kofi_symbol.png" title="Zach Lambert's Ko-Fi" alt="Kofi"/></a>
+            <a href="https://www.youtube.com/@zarcha" target="_blank"><img class="kofi" src="images/youtube.png" title="Zach Lambert's Youtube" alt="Youtube"/></a>
             <a href="https://discord.com/invite/Wa98sZza4g" target="_blank"><img class="kofi" src="images/discord.png" title="Megaman Battle Network! Discord" alt="Discord"/></a>
         </div>
     </div>
