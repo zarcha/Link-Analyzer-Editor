@@ -12,6 +12,12 @@ export default defineConfig({
             reporter: ['lcov'],
             include: ['src/**'],
             exclude: ['**/__mocks__/**', '**/resources/**'],
+            thresholds: {
+                lines: 80,
+                functions: 80,
+                branches: 80,
+                statements: 80
+            }
         },
     },
     resolve: process.env.VITEST

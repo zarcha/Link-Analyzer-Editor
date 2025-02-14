@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/svelte';
 import { vi, expect, it, describe } from 'vitest';
 import NaviEditorTopBar from '../NaviEditorTopBar.svelte';
+import { flushSync } from 'svelte';
 
 describe('Tests Navi Editor Top Bar', () => {
     it('Verify buttons call functions', async () => {
@@ -10,10 +11,12 @@ describe('Tests Navi Editor Top Bar', () => {
             },
             hasNavi: true,
             loading: false,
+            unsaved: true,
             loadNavi: vi.fn(),
             writeNavi: vi.fn(),
             openNavi: vi.fn(),
             saveNavi: vi.fn(),
+            undoChanges: vi.fn(),
         };
 
         await render(NaviEditorTopBar, {
@@ -39,6 +42,11 @@ describe('Tests Navi Editor Top Bar', () => {
         await tmp.click();
 
         expect(props.saveNavi).toHaveBeenCalled();
+
+        tmp = screen.getByTestId('undo-navi');
+        await tmp.click();
+
+        expect(props.undoChanges).toHaveBeenCalled();
     });
 
     it('Verify loading shows when needed', async () => {
@@ -73,5 +81,27 @@ describe('Tests Navi Editor Top Bar', () => {
         expect(loadNaviBtn).toHaveClass('disabled');
         expect(writeNaviBtn).toHaveClass('disabled');
         expect(saveNaviBtn).toHaveClass('disabled');
+    });
+
+    it('Undo button is disabled when no changes are staged', async () => {
+        await render(NaviEditorTopBar, {
+            props: {
+                unsaved: false
+            }
+        });
+
+        const undoChangesBtn = screen.getByTestId('undo-navi');
+        expect(undoChangesBtn).toHaveClass('disabled');
+    });
+
+    it('Undo button is enabled when changes are staged', async () => {
+        await render(NaviEditorTopBar, {
+            props: {
+                unsaved: true
+            }
+        });
+
+        const undoChangesBtn = screen.getByTestId('undo-navi');
+        expect(undoChangesBtn).not.toHaveClass('disabled');
     });
 });

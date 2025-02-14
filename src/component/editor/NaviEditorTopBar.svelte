@@ -1,5 +1,5 @@
 <script>
-    const { port = false, hasNavi, loading, loadNavi, writeNavi, openNavi, saveNavi, unsaved, undoChanges } = $props();
+    const { port = false, hasNavi, unsaved, loading, loadNavi, writeNavi, openNavi, saveNavi, undoChanges } = $props();
 </script>
 
 <div>
@@ -24,7 +24,7 @@
                 </li>
                 <li class="nav-item margin-left">
                     <!-- svelte-ignore a11y_consider_explicit_label -->
-                    <button data-testid="save-navi" type="button" class="btn btn-warning {unsaved ? '' : 'disabled'}" onclick={undoChanges} title="Undo Changes"><i class="fa-solid fa-rotate-right"></i></button>
+                    <button data-testid="undo-navi" type="button" class="btn btn-warning {unsaved ? '' : 'disabled'}" onclick={undoChanges} title="Undo Changes"><i class="fa-solid fa-rotate-right"></i></button>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
