@@ -13,6 +13,7 @@
 
     let isLoading = $state(false);
     let navi = $state();
+    let ogNavi = $state();
   
     async function readNaviData(){
       isLoading = true;
@@ -20,6 +21,7 @@
       try{
         const tmp = await LinkAnalyzer.writeSync(port, 'r');
         navi = LinkChip.toObject(tmp);
+        ogNavi = {...navi};
         publish('toasts', {type: 'success', content: 'Navi loaded from Link Analyzer.'});
       }catch(error){
         publish('toasts', {type: 'error', content: error.message || error});
@@ -42,7 +44,7 @@
             await LinkAnalyzer.writeSync(port, bytes)
         }
         navi = tmp;
-
+          ogNavi = {...navi};
         publish('toasts', {type: 'success', content: 'Navi written to Link Analyzer.'});
         
       }catch(error){
@@ -57,6 +59,7 @@
         const tmp = await FileUtil.openNavi();
         if(tmp){
           navi = tmp;
+          ogNavi = {...tmp};
           publish('toasts', {type: 'success', content: 'Loaded Navi from file.'});
         }
       }catch(error){
@@ -69,6 +72,7 @@
       try{
         const fileName = await FileUtil.saveNavi(navi);
         if(fileName){
+            ogNavi = {...navi};
           publish('toasts', {type: 'success', content: `Navi saved to file as ${fileName}`});
         }
       }catch(error){
@@ -76,7 +80,12 @@
       }
     }
 
-  </script>
+    function undoChanges(){
+        navi = {...ogNavi}
+        publish('toasts', {type: 'success', content: 'Changes have been undone.'})
+    }
+</script>
+
 <div>
     <NaviEditorTopBar port={port} 
     hasNavi={navi ? true : false} 
@@ -84,7 +93,9 @@
     loadNavi={readNaviData} 
     writeNavi={writeNaviData}
     openNavi={openNaviFile} 
-    saveNavi={saveNaviFile}/>
+    saveNavi={saveNaviFile}
+    unsaved={JSON.stringify(navi) != JSON.stringify(ogNavi)}
+    undoChanges={undoChanges}/>
 
     <div class='container'>
       {#if port}

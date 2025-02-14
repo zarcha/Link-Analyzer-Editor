@@ -69,9 +69,9 @@
     });
 </script>
 
-<div class="chip-list-container">
-    {#if filteredChips.length > 0}
+<div class="chip-list-container container">
     <Search port={port} filter={filterChips} />
+    {#if filteredChips.length > 0}
     {#each {length: maxChips}, i}
         <Chip bind:chipInfo={filteredChips[i]} />
     {/each}
