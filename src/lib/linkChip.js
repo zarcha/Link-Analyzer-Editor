@@ -64,7 +64,7 @@ const locations = {
         little: false,
         multiplier: 1,
     },
-    unknownSprite: {
+    beastOutSprite: {
         start: 228,
         length: 120,
         type: 'image',
@@ -97,7 +97,7 @@ function toObject(raw) {
         attack: getIntValue('attack', raw),
         wins: getIntValue('wins', raw),
         losses: getIntValue('losses', raw),
-        unknownSprite: getRawValue('unknownSprite', raw),
+        beastOutSprite: getRawValue('beastOutSprite', raw),
         crossSprite: getRawValue('crossSprite', raw),
         loseSprite: getRawValue('loseSprite', raw),
         winSprite: getRawValue('winSprite', raw),

@@ -123,7 +123,7 @@
                   <div class='col'><NumberField name='Navi Losses' bind:value={navi.losses} maxValue=255 /></div>
               </div>
               <div class='row'>
-                  <div class='col'><ImageField name='Unknown Sprite' bind:value={navi.unknownSprite} /></div>
+                  <div class='col'><ImageField name='Beast Out Sprite' bind:value={navi.beastOutSprite} /></div>
                   <div class='col'><ImageField name='Cross Sprite' bind:value={navi.crossSprite} /></div>
                   <div class='col'><ImageField name='Win Sprite' bind:value={navi.winSprite} /></div>
                   <div class='col'><ImageField name='Lose Sprite' bind:value={navi.loseSprite} /></div>
