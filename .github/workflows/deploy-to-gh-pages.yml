@@ -34,6 +34,7 @@ jobs:
             - name: Run ESLint
               run: npm run eslint:check
     test:
+        needs: ['prettier', 'linting']
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
