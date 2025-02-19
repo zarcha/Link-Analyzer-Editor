@@ -1,12 +1,12 @@
 <script>
     import { onMount } from 'svelte';
 
-    let {name, value = $bindable(), maxValue} = $props();
+    let {name, value = $bindable(), maxValue, multiplier = 1} = $props();
 
     let validInput = $state(true);
 
     function validate(){
-        validInput = value <= maxValue && value >= 0;
+        validInput = value <= maxValue && value >= 0 && (value % multiplier) === 0;
     }
 
     onMount(() => {

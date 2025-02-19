@@ -1,5 +1,6 @@
 <script>
     import LinkAnalyzer from '../../lib/linkAnalyzer.js';
+    import { onMount } from 'svelte';
 
     const { filter, port } = $props();
     let filterValue = $state('');
@@ -10,6 +11,14 @@
         filterValue = (parseInt(bin, 2) >> 0).toString();
         filter(filterValue);
     }
+
+    onMount(() => {
+        window.addEventListener('keydown', ((event) => {
+            if (event.key === 'Enter') {
+                filter(filterValue);
+            }
+        }));
+    });
 </script>
 
 <div class="search">

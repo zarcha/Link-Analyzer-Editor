@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/svelte';
 import { vi, expect, it, describe } from 'vitest';
 import NaviEditorTopBar from '../NaviEditorTopBar.svelte';
-import { flushSync } from 'svelte';
 
 describe('Tests Navi Editor Top Bar', () => {
     it('Verify buttons call functions', async () => {
@@ -86,8 +85,8 @@ describe('Tests Navi Editor Top Bar', () => {
     it('Undo button is disabled when no changes are staged', async () => {
         await render(NaviEditorTopBar, {
             props: {
-                unsaved: false
-            }
+                unsaved: false,
+            },
         });
 
         const undoChangesBtn = screen.getByTestId('undo-navi');
@@ -97,8 +96,8 @@ describe('Tests Navi Editor Top Bar', () => {
     it('Undo button is enabled when changes are staged', async () => {
         await render(NaviEditorTopBar, {
             props: {
-                unsaved: true
-            }
+                unsaved: true,
+            },
         });
 
         const undoChangesBtn = screen.getByTestId('undo-navi');

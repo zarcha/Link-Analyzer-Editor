@@ -105,22 +105,22 @@
       <div class='card'>
           <div class='card-body'>
               <div class='row'>
-                  <div class='col'><NaviField bind:value={navi.naviId}/></div>
+                  <div class='col'><NaviField bind:value={navi.naviId.value}/></div>
               </div>
               <div class='row'>
-                  <div class='col'><NumberField name='PET ID' bind:value={navi.petId} maxValue=65535 /></div>
+                  <div class='col'><NumberField name='PET ID' bind:value={navi.petId.value} maxValue={navi.petId.maxValue} /></div>
               </div>
               <div class='row'>
-                  <div class='col'><NumberField name='Navi Level' bind:value={navi.level} maxValue=255 /></div>
-                  <div class='col'><NumberField name='Navi EXP' bind:value={navi.experience} maxValue=65535 /></div>
+                  <div class='col'><NumberField name='Navi Level' bind:value={navi.level.value} maxValue={navi.level.maxValue} multiplier={navi.level.multiplier} /></div>
+                  <div class='col'><NumberField name='Navi EXP' bind:value={navi.experience.value} maxValue={navi.experience.maxValue} multiplier={navi.experience.multiplier} /></div>
               </div>
               <div class='row'>
-                  <div class='col'><NumberField name='Navi HP' bind:value={navi.health} maxValue=255 /></div>
-                  <div class='col'><NumberField name='Navi ATTK' bind:value={navi.attack} maxValue=255 /></div>
+                  <div class='col'><NumberField name='Navi HP' bind:value={navi.health.value} maxValue={navi.health.maxValue} multiplier={navi.health.multiplier} /></div>
+                  <div class='col'><NumberField name='Navi ATTK' bind:value={navi.attack.value} maxValue={navi.attack.maxValue} multiplier={navi.attack.multiplier} /></div>
               </div>
               <div class='row'>
-                  <div class='col'><NumberField name='Navi Wins' bind:value={navi.wins} maxValue=255 /></div>
-                  <div class='col'><NumberField name='Navi Losses' bind:value={navi.losses} maxValue=255 /></div>
+                  <div class='col'><NumberField name='Navi Wins' bind:value={navi.wins.value} maxValue={navi.wins.maxValue} multiplier={navi.wins.multiplier} /></div>
+                  <div class='col'><NumberField name='Navi Losses' bind:value={navi.losses.value} maxValue={navi.losses.maxValue} multiplier={navi.losses.multiplier} /></div>
               </div>
               <div class='row'>
                   <div class='col'><ImageField name='Beast Out Sprite' bind:value={navi.beastOutSprite} /></div>

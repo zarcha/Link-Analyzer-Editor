@@ -6,15 +6,47 @@ import imgUtil from '../imgUtil.js';
 import { Jimp } from 'jimp';
 
 const naviObj = {
-    petId: 2555,
-    owner: 0,
-    naviId: 4,
-    level: 255,
-    experience: 0,
-    health: 250,
-    attack: 1,
-    wins: 0,
-    losses: 0,
+    petId: {
+        value: 2555,
+        maxValue: 65535,
+        multiplier: 1,
+    },
+    owner: '0000000000',
+    naviId: {
+        value: 4,
+        maxValue: 255,
+        multiplier: 1,
+    },
+    level: {
+        value: 255,
+        maxValue: 255,
+        multiplier: 1,
+    },
+    experience: {
+        value: 0,
+        maxValue: 65535,
+        multiplier: 1,
+    },
+    health: {
+        value: 250,
+        maxValue: 2550,
+        multiplier: 10,
+    },
+    attack: {
+        value: 1,
+        maxValue: 255,
+        multiplier: 1,
+    },
+    wins: {
+        value: 0,
+        maxValue: 255,
+        multiplier: 1,
+    },
+    losses: {
+        value: 0,
+        maxValue: 255,
+        multiplier: 1,
+    },
     beastOutSprite:
         'F8FC510F10139F1F7E3C1A1D636A953E84F42F3F0F18B03E1AFE5F3FD55F6A3E3AB8BF3EF0E0711FE063EF32C0FFEB32607FE333F0CCF723F8B3FF0F047FAF3EA8B35F0FD04CB723603FE333C55FEF3382A3EB32E0E0711F30B8BF3EE1576A3F2AFE5F3E1D15303D87EAAF3E6041111F1FE0981FF071560F',
     crossSprite:
