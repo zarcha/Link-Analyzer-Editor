@@ -14,6 +14,7 @@
         "test:coverage": "vitest run --coverage",
         "test": "vitest run",
         "test:watch": "vitest",
+        "sonar": "sonar-scanner",
         "scan": "vitest run --coverage && sonar-scanner"
     },
     "devDependencies": {

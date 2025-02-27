@@ -1,6 +1,6 @@
 projectKey=link-analyzer-editor
-serverUrl=http://localhost:9001
+serverUrl=https://sonarqube.altimitlab.local
 serverVersion=25.2.0.102705
-dashboardUrl=http://localhost:9001/dashboard?id=link-analyzer-editor
-ceTaskId=541378fb-c61a-4c31-b03a-c4474b9c8c80
-ceTaskUrl=http://localhost:9001/api/ce/task?id=541378fb-c61a-4c31-b03a-c4474b9c8c80
+dashboardUrl=https://sonarqube.altimitlab.local/dashboard?id=link-analyzer-editor
+ceTaskId=eb853feb-3198-4b3e-9575-07f9da984248
+ceTaskUrl=https://sonarqube.altimitlab.local/api/ce/task?id=eb853feb-3198-4b3e-9575-07f9da984248

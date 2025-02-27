@@ -11,7 +11,7 @@ export default defineConfig({
         coverage: {
             reporter: ['lcov'],
             include: ['src/**'],
-            exclude: ['**/__mocks__/**', '**/resources/**'],
+            exclude: ['**/__mocks__/**', '**/resources/**', 'deploy'],
             thresholds: {
                 lines: 80,
                 functions: 80,

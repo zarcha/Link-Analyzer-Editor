@@ -3,6 +3,6 @@ import svelteConfig from '@sveltejs/eslint-config';
 export default [
     ...svelteConfig,
     {
-        ignores: ['**/ChipLibrary.svelte'],
+        ignores: ['**/ChipLibrary.svelte', 'deploy'],
     },
 ];

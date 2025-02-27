@@ -1,0 +1,18 @@
+ingress:
+  path: / #change this to have the app run at a path
+#### hosts will add a https or http server with the specific hosts. No hosts will add an http server with * as the host
+#  hosts:
+#    - hosts:
+#        - "linkanalyzer.local"
+#      tls:
+#        mode: SIMPLE
+#        secret: tls-secret # crt and key istio secret
+#    - hosts:
+#        - "127.0.0.1"
+
+deployment:
+  replicaCount: 2
+  image:
+    repository: zarcha2/link-analyzer
+    pullPolicy: IfNotPresent
+    tag: "1.0.0"

@@ -1,0 +1,42 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: {{ .Chart.Name }}
+  namespace: {{ .Release.Name }}
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+    {{ if .Values.ingress.hosts}}
+    {{- range $.Values.ingress.hosts }}
+    {{ if .tls }}
+    - port:
+        number: 443
+        name: https
+        protocol: HTTPS
+      tls:
+        mode: {{ .tls.mode }}
+        credentialName: {{ .tls.secret }}
+      hosts:
+        {{- range .hosts }}
+        - {{ . | default "- '*'" }}
+        {{- end }}
+    {{ else }}
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        {{- range .hosts }}
+        - {{ . | default "- '*'" }}
+        {{- end }}
+    {{ end }}
+    {{- end }}
+    {{ else }}
+    - port:
+        number: 80
+        name: http
+        protocol: HTTP
+      hosts:
+        - "*"
+    {{end}}
