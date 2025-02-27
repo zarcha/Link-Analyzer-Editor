@@ -24,7 +24,7 @@
 Helm is used for the deployment. The K8S server needs istio and istio ingress gateway installed. By default, helm will install the app with a HTTP gateway server with no specific binding address `- *`.
 
 - Run `helm install link-analyzer ./deploy/`
-  - This will deploy the app under a namespace called link-analyzer, to deploy it under a different namespace change the name in the above command.
+    - This will deploy the app under a namespace called link-analyzer, to deploy it under a different namespace change the name in the above command.
 
 # Testing
 
